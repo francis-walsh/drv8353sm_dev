@@ -1,4 +1,4 @@
-(module CSD19502 (layer F.Cu) (tedit 6035558B)
+(module CSD19502 (layer F.Cu) (tedit 603A5902)
   (fp_text reference REF** (at 0.3 -3.28) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -14,4 +14,9 @@
   (pad 3 smd rect (at 2.77 -0.635) (size 1.32 0.71) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 2.77 0.635) (size 1.32 0.71) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 2.77 1.905) (size 1.32 0.71) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/Package_SON.3dshapes/WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1.5 2.2 1))
+    (rotate (xyz 0 0 -90))
+  )
 )
