@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# DRV8353S_dev_board-rescue_+3V3-power
+# +3V3-power
 #
-DEF DRV8353S_dev_board-rescue_+3V3-power #PWR 0 0 Y Y 1 F P
+DEF +3V3-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "DRV8353S_dev_board-rescue_+3V3-power" 0 140 50 H V C CNN
+F1 "+3V3-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_+5V-power
+# +5V-power
 #
-DEF DRV8353S_dev_board-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF +5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "DRV8353S_dev_board-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_C-Device
+# C-Device
 #
-DEF DRV8353S_dev_board-rescue_C-Device C 0 10 N Y 1 F N
+DEF C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "DRV8353S_dev_board-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -49,11 +49,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_C_Small-Device
+# C_Small-Device
 #
-DEF DRV8353S_dev_board-rescue_C_Small-Device C 0 10 N N 1 F N
+DEF C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "DRV8353S_dev_board-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F1 "C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -67,11 +67,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_Conn_01x02-Connector_Generic
+# Conn_01x02-Connector_Generic
 #
-DEF DRV8353S_dev_board-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "DRV8353S_dev_board-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
+F1 "Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -86,11 +86,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_Conn_01x03-Connector_Generic
+# Conn_01x03-Connector_Generic
 #
-DEF DRV8353S_dev_board-rescue_Conn_01x03-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x03-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "DRV8353S_dev_board-rescue_Conn_01x03-Connector_Generic" 0 -200 50 H V C CNN
+F1 "Conn_01x03-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -107,11 +107,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_Conn_01x04-Connector_Generic
+# Conn_01x04-Connector_Generic
 #
-DEF DRV8353S_dev_board-rescue_Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "DRV8353S_dev_board-rescue_Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
+F1 "Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -130,11 +130,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_Conn_01x06-Connector_Generic
+# Conn_01x06-Connector_Generic
 #
-DEF DRV8353S_dev_board-rescue_Conn_01x06-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x06-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "DRV8353S_dev_board-rescue_Conn_01x06-Connector_Generic" 0 -400 50 H V C CNN
+F1 "Conn_01x06-Connector_Generic" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -157,11 +157,11 @@ X Pin_6 6 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_Conn_02x03_Odd_Even-Connector_Generic
+# Conn_02x03_Odd_Even-Connector_Generic
 #
-DEF DRV8353S_dev_board-rescue_Conn_02x03_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x03_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "DRV8353S_dev_board-rescue_Conn_02x03_Odd_Even-Connector_Generic" 50 -200 50 H V C CNN
+F1 "Conn_02x03_Odd_Even-Connector_Generic" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -184,11 +184,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_D_Schottky_Small_ALT-Device
+# D_Schottky_Small_ALT-Device
 #
-DEF DRV8353S_dev_board-rescue_D_Schottky_Small_ALT-Device D 0 10 N N 1 F N
+DEF D_Schottky_Small_ALT-Device D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "DRV8353S_dev_board-rescue_D_Schottky_Small_ALT-Device" -280 -80 50 H V L CNN
+F1 "D_Schottky_Small_ALT-Device" -280 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -206,11 +206,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_Ferrite_Bead_Small-Device
+# Ferrite_Bead_Small-Device
 #
-DEF DRV8353S_dev_board-rescue_Ferrite_Bead_Small-Device FB 0 0 N Y 1 F N
+DEF Ferrite_Bead_Small-Device FB 0 0 N Y 1 F N
 F0 "FB" 75 50 50 H V L CNN
-F1 "DRV8353S_dev_board-rescue_Ferrite_Bead_Small-Device" 75 -50 50 H V L CNN
+F1 "Ferrite_Bead_Small-Device" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -227,11 +227,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_GND-power
+# GND-power
 #
-DEF DRV8353S_dev_board-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "DRV8353S_dev_board-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -240,11 +240,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_LED_Small-Device
+# LED_Small-Device
 #
-DEF DRV8353S_dev_board-rescue_LED_Small-Device D 0 10 N N 1 F N
+DEF LED_Small-Device D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "DRV8353S_dev_board-rescue_LED_Small-Device" -175 -100 50 H V L CNN
+F1 "LED_Small-Device" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -263,11 +263,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_Logo_Open_Hardware_Small-Graphic
+# Logo_Open_Hardware_Small-Graphic
 #
-DEF DRV8353S_dev_board-rescue_Logo_Open_Hardware_Small-Graphic #LOGO 0 40 Y Y 1 F N
+DEF Logo_Open_Hardware_Small-Graphic #LOGO 0 40 Y Y 1 F N
 F0 "#LOGO" 0 275 50 H I C CNN
-F1 "DRV8353S_dev_board-rescue_Logo_Open_Hardware_Small-Graphic" 0 -225 50 H I C CNN
+F1 "Logo_Open_Hardware_Small-Graphic" 0 -225 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -275,11 +275,11 @@ P 277 0 1 0 132 -171 130 -170 125 -167 118 -162 109 -156 100 -150 93 -146 88 -14
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_Q_NMOS_DGS-Device
+# Q_NMOS_DGS-Device
 #
-DEF DRV8353S_dev_board-rescue_Q_NMOS_DGS-Device Q 0 0 Y N 1 F N
+DEF Q_NMOS_DGS-Device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "DRV8353S_dev_board-rescue_Q_NMOS_DGS-Device" 200 -50 50 H V L CNN
+F1 "Q_NMOS_DGS-Device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -303,11 +303,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_Q_PMOS_GSD-Device
+# Q_PMOS_GSD-Device
 #
-DEF DRV8353S_dev_board-rescue_Q_PMOS_GSD-Device Q 0 0 Y N 1 F N
+DEF Q_PMOS_GSD-Device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "DRV8353S_dev_board-rescue_Q_PMOS_GSD-Device" 200 -50 50 H V L CNN
+F1 "Q_PMOS_GSD-Device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -331,11 +331,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_R-Device
+# R-Device
 #
-DEF DRV8353S_dev_board-rescue_R-Device R 0 0 N Y 1 F N
+DEF R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "DRV8353S_dev_board-rescue_R-Device" 0 0 50 V V C CNN
+F1 "R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -348,11 +348,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_R_Small-Device
+# R_Small-Device
 #
-DEF DRV8353S_dev_board-rescue_R_Small-Device R 0 10 N N 1 F N
+DEF R_Small-Device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "DRV8353S_dev_board-rescue_R_Small-Device" 30 -40 50 H V L CNN
+F1 "R_Small-Device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -365,11 +365,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_STM32F042K4Ux-MCU_ST_STM32F0
+# STM32F042K4Ux-MCU_ST_STM32F0
 #
-DEF DRV8353S_dev_board-rescue_STM32F042K4Ux-MCU_ST_STM32F0 U 0 20 Y Y 1 F N
+DEF STM32F042K4Ux-MCU_ST_STM32F0 U 0 20 Y Y 1 F N
 F0 "U" -400 850 50 H V L CNN
-F1 "DRV8353S_dev_board-rescue_STM32F042K4Ux-MCU_ST_STM32F0" 200 850 50 H V L CNN
+F1 "STM32F042K4Ux-MCU_ST_STM32F0" 200 850 50 H V L CNN
 F2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" -400 -900 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -413,11 +413,11 @@ X PA3 9 500 400 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_SW_DIP_x01-Switch
+# SW_DIP_x01-Switch
 #
-DEF DRV8353S_dev_board-rescue_SW_DIP_x01-Switch SW 0 0 Y N 1 F N
+DEF SW_DIP_x01-Switch SW 0 0 Y N 1 F N
 F0 "SW" 0 150 50 H V C CNN
-F1 "DRV8353S_dev_board-rescue_SW_DIP_x01-Switch" 0 -150 50 H V C CNN
+F1 "SW_DIP_x01-Switch" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -433,11 +433,11 @@ X ~ 2 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_SW_SPST-Switch
+# SW_SPST-Switch
 #
-DEF DRV8353S_dev_board-rescue_SW_SPST-Switch SW 0 0 Y N 1 F N
+DEF SW_SPST-Switch SW 0 0 Y N 1 F N
 F0 "SW" 0 125 50 H V C CNN
-F1 "DRV8353S_dev_board-rescue_SW_SPST-Switch" 0 -100 50 H V C CNN
+F1 "SW_SPST-Switch" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -449,11 +449,11 @@ X B 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_TestPoint-Connector
+# TestPoint-Connector
 #
-DEF DRV8353S_dev_board-rescue_TestPoint-Connector TP 0 30 N N 1 F N
+DEF TestPoint-Connector TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "DRV8353S_dev_board-rescue_TestPoint-Connector" 0 200 50 H V C CNN
+F1 "TestPoint-Connector" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -466,11 +466,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# DRV8353S_dev_board-rescue_Vdrive-power
+# Vdrive-power
 #
-DEF DRV8353S_dev_board-rescue_Vdrive-power #PWR 0 0 Y Y 1 F P
+DEF Vdrive-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" -200 -150 50 H I C CNN
-F1 "DRV8353S_dev_board-rescue_Vdrive-power" 0 150 50 H V C CNN
+F1 "Vdrive-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -478,120 +478,6 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X Vdrive 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# MOTOR_BOARD_DRV8353SM
-#
-DEF MOTOR_BOARD_DRV8353SM U 0 40 Y Y 1 F N
-F0 "U" 0 1400 50 H V C CNN
-F1 "MOTOR_BOARD_DRV8353SM" -50 1300 50 H V C CNN
-F2 "Package_DFN_QFN:QFN-40-1EP_6x6mm_P0.5mm_EP4.6x4.6mm_ThermalVias" 0 1400 50 H I C CNN
-F3 "" 0 1400 50 H I C CNN
-F4 "296-DRV8353SMRTATCT-ND" 0 0 50 H I C CNN "Digikey"
-DRAW
-S -450 1250 350 -1450 0 1 0 f
-X CPL 1 450 800 100 L 50 50 1 1 I
-X SNA 10 450 0 100 L 50 50 1 1 I
-X SNB 11 450 -650 100 L 50 50 1 1 I
-X SPB 12 450 -550 100 L 50 50 1 1 I
-X GLB 13 450 -450 100 L 50 50 1 1 I
-X SHB 14 450 -350 100 L 50 50 1 1 I
-X GHB 15 450 -250 100 L 50 50 1 1 I
-X GHC 16 450 -900 100 L 50 50 1 1 I
-X SHC 17 450 -1000 100 L 50 50 1 1 I
-X GLC 18 450 -1100 100 L 50 50 1 1 I
-X SPC 19 450 -1200 100 L 50 50 1 1 I
-X CPH 2 450 1000 100 L 50 50 1 1 I
-X SNC 20 450 -1300 100 L 50 50 1 1 I
-X SOC 21 -550 -1050 100 R 50 50 1 1 I
-X SOB 22 -550 -950 100 R 50 50 1 1 I
-X SOA 23 -550 -850 100 R 50 50 1 1 I
-X VREF 24 -550 -750 100 R 50 50 1 1 I
-X AGND 25 -550 -1150 100 R 50 50 1 1 I
-X ~FAULT 26 -550 -100 100 R 50 50 1 1 I
-X MISO 27 -550 -400 100 R 50 50 1 1 I
-X MOSI 28 -550 -500 100 R 50 50 1 1 I
-X SCLK 29 -550 -300 100 R 50 50 1 1 I
-X VM 3 -550 1200 100 R 50 50 1 1 I
-X ~SCS 30 -550 -600 100 R 50 50 1 1 I
-X ENABLE 31 -550 0 100 R 50 50 1 1 I
-X INHA/SPEED 32 -550 300 100 R 50 50 1 1 I
-X INLA/HALLA 33 -550 750 100 R 50 50 1 1 I
-X INHB/HALLB 34 -550 650 100 R 50 50 1 1 I
-X INLB/HALLC 35 -550 550 100 R 50 50 1 1 I
-X INHC/DIR 36 -550 200 100 R 50 50 1 1 I
-X INLC/nBRAKE 37 -550 100 100 R 50 50 1 1 I
-X DVDD 38 -550 1100 100 R 50 50 1 1 I
-X GND 39 -550 -1300 100 R 50 50 1 1 I
-X VDRAIN 4 450 1100 100 L 50 50 1 1 I
-X VGLS 40 -550 1000 100 R 50 50 1 1 I
-X GND/EP 41 -550 -1400 100 R 50 50 1 1 I
-X VCP 5 450 1200 100 L 50 50 1 1 I
-X GHA 6 450 400 100 L 50 50 1 1 I
-X SHA 7 450 300 100 L 50 50 1 1 I
-X GLA 8 450 200 100 L 50 50 1 1 I
-X SPA 9 450 100 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# MOTOR_BOARD_ECS-33B
-#
-DEF MOTOR_BOARD_ECS-33B U 0 40 Y Y 1 F N
-F0 "U" 0 200 50 H V C CNN
-F1 "MOTOR_BOARD_ECS-33B" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -30 -60 30 60 1 1 0 N
-P 2 1 1 15 -50 -30 -50 30 N
-P 2 1 1 15 50 -30 50 30 N
-X ~ 1 -100 0 50 R 50 50 1 1 P
-X ~ 3 100 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# MOTOR_BOARD_MIC5283-3.3ML-TR
-#
-DEF MOTOR_BOARD_MIC5283-3.3ML-TR U 0 40 Y Y 1 F N
-F0 "U" 0 350 50 H V C CNN
-F1 "MOTOR_BOARD_MIC5283-3.3ML-TR" 0 250 50 H V C CNN
-F2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm" 0 300 50 H I C CNN
-F3 "" 0 300 50 H I C CNN
-F4 "MIC5283-3.3YML-CT-ND" 0 0 50 H I C CNN "Digikey"
-DRAW
-S -300 200 250 -200 0 1 0 f
-X VIN 1 -400 150 100 R 50 50 1 1 I
-X NC 2 -50 50 100 R 50 50 1 1 I N
-X NC 3 -50 50 100 R 50 50 1 1 I N
-X CPSRR 4 -400 50 100 R 50 50 1 1 I
-X GND 5 -400 -50 100 R 50 50 1 1 I
-X SNS 6 350 -50 100 L 50 50 1 1 I
-X NC 7 -50 50 100 R 50 50 1 1 I N
-X VOUT 8 350 150 100 L 50 50 1 1 I
-X GND 9 -400 -150 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# MOTOR_BOARD_MIC5283-5.0ML-TR
-#
-DEF MOTOR_BOARD_MIC5283-5.0ML-TR U 0 40 Y Y 1 F N
-F0 "U" 0 300 50 H V C CNN
-F1 "MOTOR_BOARD_MIC5283-5.0ML-TR" 50 200 50 H V C CNN
-F2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "576-4343-1-ND" 0 0 50 H I C CNN "Digikey"
-DRAW
-S -300 150 250 -250 1 1 0 f
-X VIN 1 -400 100 100 R 50 50 1 1 I
-X NC 2 -50 0 100 R 50 50 1 1 I N
-X NC 3 -50 0 100 R 50 50 1 1 I N
-X CPSRR 4 -400 0 100 R 50 50 1 1 I
-X GND 5 -400 -100 100 R 50 50 1 1 I
-X SNS 6 350 -100 100 L 50 50 1 1 I
-X NC 7 -50 0 100 R 50 50 1 1 I N
-X VOUT 8 350 100 100 L 50 50 1 1 I
-X GND 9 -400 -200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

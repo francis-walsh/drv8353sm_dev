@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name MOTOR_BOARD)(type Legacy)(uri ${KIPRJMOD}/MOTOR_BOARD.lib)(options "")(descr ""))
+  (lib (name DRV8353S_dev_board-rescue)(type Legacy)(uri ${KIPRJMOD}/DRV8353S_dev_board-rescue.lib)(options "")(descr ""))
 )

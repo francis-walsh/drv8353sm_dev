@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32F0:STM32F042K4Ux U2
+L DRV8353S_dev_board-rescue:STM32F042K4Ux-MCU_ST_STM32F0 U2
 U 1 1 603E9824
 P 1800 6500
 F 0 "U2" H 2050 5550 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
+L DRV8353S_dev_board-rescue:GND-power #PWR0101
 U 1 1 603E982A
 P 1800 7500
 F 0 "#PWR0101" H 1800 7250 50  0001 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 1800 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0102
+L DRV8353S_dev_board-rescue:+3V3-power #PWR0102
 U 1 1 603E9830
 P 1800 5500
 F 0 "#PWR0102" H 1800 5350 50  0001 C CNN
@@ -60,60 +60,60 @@ Wire Wire Line
 Wire Wire Line
 	1800 5550 1800 5500
 $Comp
-L Device:C_Small C14
+L DRV8353S_dev_board-rescue:C_Small-Device C14
 U 1 1 603E9849
-P 3200 7350
-F 0 "C14" H 3108 7304 50  0000 R CNN
-F 1 "1uF" H 3108 7395 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 7350 50  0001 C CNN
-F 3 "~" H 3200 7350 50  0001 C CNN
-F 4 "6.3V" H 3050 7500 50  0000 C CNN "Voltage"
-F 5 "478-12143-1-ND" H 3200 7350 50  0001 C CNN "Digikey"
-	1    3200 7350
+P 3350 7400
+F 0 "C14" H 3258 7354 50  0000 R CNN
+F 1 "1uF" H 3258 7445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3350 7400 50  0001 C CNN
+F 3 "~" H 3350 7400 50  0001 C CNN
+F 4 "6.3V" H 3200 7550 50  0000 C CNN "Voltage"
+F 5 "478-12143-1-ND" H 3350 7400 50  0001 C CNN "Digikey"
+	1    3350 7400
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0103
+L DRV8353S_dev_board-rescue:GND-power #PWR0103
 U 1 1 603E984F
-P 3200 7450
-F 0 "#PWR0103" H 3200 7200 50  0001 C CNN
-F 1 "GND" H 3205 7277 50  0000 C CNN
-F 2 "" H 3200 7450 50  0001 C CNN
-F 3 "" H 3200 7450 50  0001 C CNN
-	1    3200 7450
+P 3350 7500
+F 0 "#PWR0103" H 3350 7250 50  0001 C CNN
+F 1 "GND" H 3355 7327 50  0000 C CNN
+F 2 "" H 3350 7500 50  0001 C CNN
+F 3 "" H 3350 7500 50  0001 C CNN
+	1    3350 7500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0104
+L DRV8353S_dev_board-rescue:GND-power #PWR0104
 U 1 1 603E9855
-P 3500 7450
-F 0 "#PWR0104" H 3500 7200 50  0001 C CNN
-F 1 "GND" H 3505 7277 50  0000 C CNN
-F 2 "" H 3500 7450 50  0001 C CNN
-F 3 "" H 3500 7450 50  0001 C CNN
-	1    3500 7450
+P 3650 7500
+F 0 "#PWR0104" H 3650 7250 50  0001 C CNN
+F 1 "GND" H 3655 7327 50  0000 C CNN
+F 2 "" H 3650 7500 50  0001 C CNN
+F 3 "" H 3650 7500 50  0001 C CNN
+	1    3650 7500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
+L DRV8353S_dev_board-rescue:GND-power #PWR0105
 U 1 1 603E985B
-P 3800 7450
-F 0 "#PWR0105" H 3800 7200 50  0001 C CNN
-F 1 "GND" H 3805 7277 50  0000 C CNN
-F 2 "" H 3800 7450 50  0001 C CNN
-F 3 "" H 3800 7450 50  0001 C CNN
-	1    3800 7450
+P 3950 7500
+F 0 "#PWR0105" H 3950 7250 50  0001 C CNN
+F 1 "GND" H 3955 7327 50  0000 C CNN
+F 2 "" H 3950 7500 50  0001 C CNN
+F 3 "" H 3950 7500 50  0001 C CNN
+	1    3950 7500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0106
+L DRV8353S_dev_board-rescue:+3V3-power #PWR0106
 U 1 1 603E9861
-P 3500 7100
-F 0 "#PWR0106" H 3500 6950 50  0001 C CNN
-F 1 "+3V3" H 3515 7273 50  0000 C CNN
-F 2 "" H 3500 7100 50  0001 C CNN
-F 3 "" H 3500 7100 50  0001 C CNN
-	1    3500 7100
+P 3650 7150
+F 0 "#PWR0106" H 3650 7000 50  0001 C CNN
+F 1 "+3V3" H 3665 7323 50  0000 C CNN
+F 2 "" H 3650 7150 50  0001 C CNN
+F 3 "" H 3650 7150 50  0001 C CNN
+	1    3650 7150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -125,7 +125,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 900  2900 850 
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 603E98B6
 P 2900 850
 AR Path="/60313041/603E98B6" Ref="#PWR?"  Part="1" 
@@ -146,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 1650 2900 1600
 $Comp
-L power:+5V #PWR0108
+L DRV8353S_dev_board-rescue:+5V-power #PWR0108
 U 1 1 603E98FE
 P 2900 1600
 F 0 "#PWR0108" H 2900 1450 50  0001 C CNN
@@ -157,18 +157,18 @@ F 3 "" H 2900 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 7250 3200 7200
+	3350 7300 3350 7250
 Wire Wire Line
-	3200 7200 3500 7200
+	3350 7250 3650 7250
 Wire Wire Line
-	3800 7200 3800 7250
+	3950 7250 3950 7300
 Wire Wire Line
-	3500 7250 3500 7200
-Connection ~ 3500 7200
+	3650 7300 3650 7250
+Connection ~ 3650 7250
 Wire Wire Line
-	3500 7200 3800 7200
+	3650 7250 3950 7250
 Wire Wire Line
-	3500 7200 3500 7100
+	3650 7250 3650 7150
 $Comp
 L MOTOR_BOARD:DRV8353SM U5
 U 1 1 603E990C
@@ -182,7 +182,7 @@ F 4 "296-DRV8353SMRTATCT-ND" H 9250 2050 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB1
+L DRV8353S_dev_board-rescue:Ferrite_Bead_Small-Device FB1
 U 1 1 604040C6
 P 7750 2800
 F 0 "FB1" V 7700 2600 50  0000 C CNN
@@ -194,7 +194,7 @@ F 4 "732-1593-1-ND" V 7750 2800 50  0001 C CNN "Digikey"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C27
+L DRV8353S_dev_board-rescue:C_Small-Device C27
 U 1 1 6032D69F
 P 7900 3000
 F 0 "C27" H 7992 3046 50  0000 L CNN
@@ -212,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 2800 7900 2900
 $Comp
-L power:GND #PWR0109
+L DRV8353S_dev_board-rescue:GND-power #PWR0109
 U 1 1 60331AAF
 P 7900 3250
 F 0 "#PWR0109" H 7900 3000 50  0001 C CNN
@@ -269,18 +269,18 @@ Wire Wire Line
 Wire Wire Line
 	7900 2800 8700 2800
 $Comp
-L power:GND #PWR0110
+L DRV8353S_dev_board-rescue:GND-power #PWR0110
 U 1 1 6035B9D4
-P 8600 3450
-F 0 "#PWR0110" H 8600 3200 50  0001 C CNN
-F 1 "GND" H 8605 3277 50  0000 C CNN
-F 2 "" H 8600 3450 50  0001 C CNN
-F 3 "" H 8600 3450 50  0001 C CNN
-	1    8600 3450
+P 8600 3550
+F 0 "#PWR0110" H 8600 3300 50  0001 C CNN
+F 1 "GND" H 8605 3377 50  0000 C CNN
+F 2 "" H 8600 3550 50  0001 C CNN
+F 3 "" H 8600 3550 50  0001 C CNN
+	1    8600 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 3450 8600 3350
+	8600 3550 8600 3450
 Wire Wire Line
 	8600 3350 8700 3350
 Text Label 8100 1750 0    39   ~ 0
@@ -308,7 +308,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 1500 8700 1500
 $Comp
-L Device:C_Small C26
+L DRV8353S_dev_board-rescue:C_Small-Device C26
 U 1 1 6037F687
 P 7750 1100
 F 0 "C26" H 7800 1300 50  0000 L CNN
@@ -321,7 +321,7 @@ F 5 "478-12143-1-ND" H 7750 1100 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C25
+L DRV8353S_dev_board-rescue:C_Small-Device C25
 U 1 1 6037FA9E
 P 7500 1100
 F 0 "C25" H 7500 1300 50  0000 L CNN
@@ -334,7 +334,7 @@ F 5 "1276-6840-1-ND" H 7500 1100 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L DRV8353S_dev_board-rescue:GND-power #PWR0111
 U 1 1 60380545
 P 7500 1200
 F 0 "#PWR0111" H 7500 950 50  0001 C CNN
@@ -345,7 +345,7 @@ F 3 "" H 7500 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0112
+L DRV8353S_dev_board-rescue:GND-power #PWR0112
 U 1 1 603815A7
 P 7750 1200
 F 0 "#PWR0112" H 7750 950 50  0001 C CNN
@@ -356,7 +356,7 @@ F 3 "" H 7750 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L DRV8353S_dev_board-rescue:GND-power #PWR0113
 U 1 1 60381991
 P 7950 1200
 F 0 "#PWR0113" H 7950 950 50  0001 C CNN
@@ -367,7 +367,7 @@ F 3 "" H 7950 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_DGS Q2
+L DRV8353S_dev_board-rescue:Q_NMOS_DGS-Device Q2
 U 1 1 60394D6B
 P 7800 4350
 F 0 "Q2" H 7600 4200 50  0000 L CNN
@@ -379,7 +379,7 @@ F 4 "296-37194-1-ND" H 7800 4350 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R38
+L DRV8353S_dev_board-rescue:R-Device R38
 U 1 1 60395FEC
 P 7900 5350
 F 0 "R38" H 7970 5396 50  0000 L CNN
@@ -392,7 +392,7 @@ F 5 "5W" H 8050 5200 50  0000 C CNN "Power"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Vdrive #PWR0114
+L DRV8353S_dev_board-rescue:Vdrive-power #PWR0114
 U 1 1 6039F1A3
 P 7300 700
 F 0 "#PWR0114" H 7100 550 50  0001 C CNN
@@ -418,7 +418,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 4900 7250 4900
 $Comp
-L Device:C C29
+L DRV8353S_dev_board-rescue:C-Device C29
 U 1 1 603C6DB9
 P 8200 4150
 F 0 "C29" H 8300 4250 50  0000 L CNN
@@ -431,7 +431,7 @@ F 5 "100V" H 8400 4050 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
+L DRV8353S_dev_board-rescue:GND-power #PWR0115
 U 1 1 603C9F17
 P 8200 4300
 F 0 "#PWR0115" H 8200 4050 50  0001 C CNN
@@ -478,7 +478,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 4900 8500 4900
 $Comp
-L power:GND #PWR0116
+L DRV8353S_dev_board-rescue:GND-power #PWR0116
 U 1 1 603F89A3
 P 9450 4300
 F 0 "#PWR0116" H 9450 4050 50  0001 C CNN
@@ -523,7 +523,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 4900 9750 4900
 $Comp
-L power:GND #PWR0117
+L DRV8353S_dev_board-rescue:GND-power #PWR0117
 U 1 1 60419E5E
 P 10700 4300
 F 0 "#PWR0117" H 10700 4050 50  0001 C CNN
@@ -553,7 +553,7 @@ SHUNT_POS_C
 Text Label 9750 5500 0    39   ~ 0
 SHUNT_NEG_C
 $Comp
-L power:Vdrive #PWR0118
+L DRV8353S_dev_board-rescue:Vdrive-power #PWR0118
 U 1 1 6045B2C3
 P 10150 700
 F 0 "#PWR0118" H 9950 550 50  0001 C CNN
@@ -606,7 +606,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 3150 9900 3150
 $Comp
-L Device:C_Small C32
+L DRV8353S_dev_board-rescue:C_Small-Device C32
 U 1 1 604E3787
 P 10050 1150
 F 0 "C32" H 10142 1196 50  0000 L CNN
@@ -620,7 +620,7 @@ F 6 "311-4050-1-ND" H 10050 1150 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C31
+L DRV8353S_dev_board-rescue:C_Small-Device C31
 U 1 1 604EA8C1
 P 9900 850
 F 0 "C31" V 9650 750 50  0000 C CNN
@@ -647,7 +647,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 1050 10050 1050
 $Comp
-L Device:R_Small R40
+L DRV8353S_dev_board-rescue:R_Small-Device R40
 U 1 1 60C80CDB
 P 10000 1650
 F 0 "R40" V 10050 1800 50  0000 C CNN
@@ -741,7 +741,7 @@ Wire Wire Line
 Text Label 3050 3100 2    39   ~ 0
 ~SPEED_UP_PB
 $Comp
-L power:GND #PWR0119
+L DRV8353S_dev_board-rescue:GND-power #PWR0119
 U 1 1 603A191A
 P 800 3900
 F 0 "#PWR0119" H 800 3650 50  0001 C CNN
@@ -772,7 +772,7 @@ Connection ~ 800  3250
 Wire Wire Line
 	800  3250 800  3400
 $Comp
-L power:GND #PWR0120
+L DRV8353S_dev_board-rescue:GND-power #PWR0120
 U 1 1 606F62DE
 P 1650 3900
 F 0 "#PWR0120" H 1650 3650 50  0001 C CNN
@@ -783,7 +783,7 @@ F 3 "" H 1650 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 606F7BB9
 P 1650 2600
 AR Path="/60313041/606F7BB9" Ref="#PWR?"  Part="1" 
@@ -798,7 +798,7 @@ $EndComp
 Text Label 3050 2900 2    39   ~ 0
 DIRECTION_DIP
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO1
+L DRV8353S_dev_board-rescue:Logo_Open_Hardware_Small-Graphic #LOGO1
 U 1 1 6094F1D9
 P 12250 650
 F 0 "#LOGO1" H 12250 925 50  0001 C CNN
@@ -818,7 +818,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 1900 3950 1800
 $Comp
-L power:Vdrive #PWR0123
+L DRV8353S_dev_board-rescue:Vdrive-power #PWR0123
 U 1 1 61369CBD
 P 3950 1800
 F 0 "#PWR0123" H 3750 1650 50  0001 C CNN
@@ -829,8 +829,6 @@ F 3 "" H 3950 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 2800 7650 2800
-Wire Wire Line
 	850  2900 800  2900
 Wire Wire Line
 	800  2900 800  3100
@@ -838,7 +836,7 @@ Connection ~ 800  3100
 Text Label 2250 5150 0    39   ~ 0
 ~SYS_FAULT
 $Comp
-L Device:R_Small R6
+L DRV8353S_dev_board-rescue:R_Small-Device R6
 U 1 1 62708B7C
 P 2650 4650
 F 0 "R6" H 2600 4500 50  0000 R CNN
@@ -850,7 +848,7 @@ F 4 "0.25W" H 2500 4700 50  0000 C CNN "Power"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 6278A0E8
 P 2650 4550
 AR Path="/60313041/6278A0E8" Ref="#PWR?"  Part="1" 
@@ -867,7 +865,7 @@ Text Label 2250 5050 0    39   ~ 0
 Text Label 2250 4950 0    39   ~ 0
 ~LED_DIR
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 6278AA5E
 P 3250 4550
 AR Path="/60313041/6278AA5E" Ref="#PWR?"  Part="1" 
@@ -880,7 +878,7 @@ F 3 "" H 3250 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 6278A780
 P 2950 4550
 AR Path="/60313041/6278A780" Ref="#PWR?"  Part="1" 
@@ -899,7 +897,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 4950 2250 4950
 $Comp
-L Device:LED_Small D3
+L DRV8353S_dev_board-rescue:LED_Small-Device D3
 U 1 1 6270C2E3
 P 3250 4850
 F 0 "D3" V 3296 4780 50  0000 R CNN
@@ -911,7 +909,7 @@ F 4 "732-4978-1-ND" V 3250 4850 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small D1
+L DRV8353S_dev_board-rescue:LED_Small-Device D1
 U 1 1 6270AB37
 P 2650 4850
 F 0 "D1" V 2696 4780 50  0000 R CNN
@@ -929,7 +927,7 @@ Wire Wire Line
 Text Label 4150 3350 2    50   ~ 0
 MOT_TEMP
 $Comp
-L power:GND #PWR0127
+L DRV8353S_dev_board-rescue:GND-power #PWR0127
 U 1 1 6055A375
 P 3850 3800
 F 0 "#PWR0127" H 3850 3550 50  0001 C CNN
@@ -946,7 +944,7 @@ HALLB_JMP
 Text Label 4150 3450 2    50   ~ 0
 HALLA_JMP
 $Comp
-L Connector_Generic:Conn_01x06 J2
+L DRV8353S_dev_board-rescue:Conn_01x06-Connector_Generic J2
 U 1 1 605212C7
 P 3550 3550
 F 0 "J2" H 3550 3000 50  0000 C CNN
@@ -958,7 +956,7 @@ F 4 "455-1673-ND" H 3550 3550 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J4
+L DRV8353S_dev_board-rescue:Conn_01x04-Connector_Generic J4
 U 1 1 607D7A04
 P 6000 2050
 F 0 "J4" H 6000 1700 50  0000 C CNN
@@ -970,7 +968,7 @@ F 4 "455-1627-ND" H 6000 2050 50  0001 C CNN "Digikey"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0128
+L DRV8353S_dev_board-rescue:GND-power #PWR0128
 U 1 1 607D8A60
 P 6800 2350
 F 0 "#PWR0128" H 6800 2100 50  0001 C CNN
@@ -985,7 +983,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 1950 6350 1950
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 6080E552
 P 6800 1900
 AR Path="/60313041/6080E552" Ref="#PWR?"  Part="1" 
@@ -1004,18 +1002,17 @@ Wire Wire Line
 Wire Wire Line
 	6200 2250 6800 2250
 Wire Wire Line
-	4700 1950 4400 1950
-Text Label 4400 1950 0    39   ~ 0
+	5200 2150 5500 2150
+Text Label 5500 2150 2    39   ~ 0
 SWDIO
-Text Label 4400 2050 0    39   ~ 0
+Text Label 5500 2050 2    39   ~ 0
 SWCLK
-Text Label 5750 2050 2    39   ~ 0
+Text Label 4400 1950 0    39   ~ 0
 ~RESET_PB
 Wire Wire Line
-	5750 2050 5200 2050
+	4400 1950 4700 1950
 Wire Wire Line
-	4400 2050 4700 2050
-NoConn ~ 4700 2150
+	5500 2050 5200 2050
 Wire Wire Line
 	6200 2050 6700 2050
 Wire Wire Line
@@ -1024,10 +1021,10 @@ Text Label 6700 2150 2    39   ~ 0
 EXT_UART_RX
 Text Label 6700 2050 2    39   ~ 0
 EXT_UART_TX
-Text Label 700  5800 0    39   ~ 0
+Text Label 650  5800 0    39   ~ 0
 ~RESET_PB
 Wire Wire Line
-	700  5800 1300 5800
+	650  5800 1300 5800
 Text Label 2950 7200 2    39   ~ 0
 SWCLK
 Text Label 2950 7100 2    39   ~ 0
@@ -1066,7 +1063,7 @@ Connection ~ 2700 1650
 Connection ~ 2700 900 
 Connection ~ 950  900 
 $Comp
-L power:Vdrive #PWR0130
+L DRV8353S_dev_board-rescue:Vdrive-power #PWR0130
 U 1 1 63B963BB
 P 950 900
 F 0 "#PWR0130" H 750 750 50  0001 C CNN
@@ -1095,7 +1092,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 2050 1600 1950
 $Comp
-L power:GND #PWR0131
+L DRV8353S_dev_board-rescue:GND-power #PWR0131
 U 1 1 603E98DB
 P 1600 2050
 F 0 "#PWR0131" H 1600 1800 50  0001 C CNN
@@ -1106,7 +1103,7 @@ F 3 "" H 1600 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0132
+L DRV8353S_dev_board-rescue:GND-power #PWR0132
 U 1 1 603E98D4
 P 2700 2050
 F 0 "#PWR0132" H 2700 1800 50  0001 C CNN
@@ -1126,7 +1123,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 1650 2550 1650
 $Comp
-L Device:C_Small C13
+L DRV8353S_dev_board-rescue:C_Small-Device C13
 U 1 1 603E98BC
 P 2700 1800
 F 0 "C13" H 2792 1846 50  0000 L CNN
@@ -1143,7 +1140,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 1300 1150 1250
 $Comp
-L power:GND #PWR0133
+L DRV8353S_dev_board-rescue:GND-power #PWR0133
 U 1 1 603E98A7
 P 1150 1300
 F 0 "#PWR0133" H 1150 1050 50  0001 C CNN
@@ -1160,7 +1157,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 1300 1400 1250
 $Comp
-L power:GND #PWR0134
+L DRV8353S_dev_board-rescue:GND-power #PWR0134
 U 1 1 603E989E
 P 1400 1300
 F 0 "#PWR0134" H 1400 1050 50  0001 C CNN
@@ -1180,7 +1177,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 1300 1600 1200
 $Comp
-L power:GND #PWR0135
+L DRV8353S_dev_board-rescue:GND-power #PWR0135
 U 1 1 603E9893
 P 1600 1300
 F 0 "#PWR0135" H 1600 1050 50  0001 C CNN
@@ -1191,7 +1188,7 @@ F 3 "" H 1600 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0136
+L DRV8353S_dev_board-rescue:GND-power #PWR0136
 U 1 1 603E988C
 P 2700 1200
 F 0 "#PWR0136" H 2700 950 50  0001 C CNN
@@ -1211,7 +1208,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 900  2550 900 
 $Comp
-L Device:C_Small C2
+L DRV8353S_dev_board-rescue:C_Small-Device C2
 U 1 1 603E9880
 P 1150 1150
 F 0 "C2" H 1100 1000 50  0000 R CNN
@@ -1224,7 +1221,7 @@ F 5 "478-12143-1-ND" H 1150 1150 50  0001 C CNN "Digikey"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C4
+L DRV8353S_dev_board-rescue:C_Small-Device C4
 U 1 1 603E987A
 P 1400 1150
 F 0 "C4" H 1300 1000 50  0000 R CNN
@@ -1237,7 +1234,7 @@ F 5 "1276-6840-1-ND" H 1400 1150 50  0001 C CNN "Digikey"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C12
+L DRV8353S_dev_board-rescue:C_Small-Device C12
 U 1 1 603E9874
 P 2700 1050
 F 0 "C12" H 2792 1096 50  0000 L CNN
@@ -1280,7 +1277,7 @@ Text Notes 4200 1300 0    50   Italic 0
 Text Notes 5900 1150 0    50   Italic 0
 Evaluation prototype for\nopen source e-mobility\nplatform.
 $Comp
-L Device:Q_NMOS_DGS Q4
+L DRV8353S_dev_board-rescue:Q_NMOS_DGS-Device Q4
 U 1 1 63FE09C3
 P 9050 4350
 F 0 "Q4" H 8850 4200 50  0000 L CNN
@@ -1292,7 +1289,7 @@ F 4 "296-37194-1-ND" H 9050 4350 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_DGS Q6
+L DRV8353S_dev_board-rescue:Q_NMOS_DGS-Device Q6
 U 1 1 63FE1476
 P 10300 4350
 F 0 "Q6" H 10100 4200 50  0000 L CNN
@@ -1304,7 +1301,7 @@ F 4 "296-37194-1-ND" H 10300 4350 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_DGS Q3
+L DRV8353S_dev_board-rescue:Q_NMOS_DGS-Device Q3
 U 1 1 603957C5
 P 7800 4900
 F 0 "Q3" H 8000 4800 50  0000 L CNN
@@ -1316,7 +1313,7 @@ F 4 "296-37194-1-ND" H 7800 4900 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_DGS Q5
+L DRV8353S_dev_board-rescue:Q_NMOS_DGS-Device Q5
 U 1 1 63FE5670
 P 9050 4900
 F 0 "Q5" H 9250 4800 50  0000 L CNN
@@ -1328,7 +1325,7 @@ F 4 "296-37194-1-ND" H 9050 4900 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_DGS Q7
+L DRV8353S_dev_board-rescue:Q_NMOS_DGS-Device Q7
 U 1 1 63FE5E6F
 P 10300 4900
 F 0 "Q7" H 10500 4800 50  0000 L CNN
@@ -1340,7 +1337,7 @@ F 4 "296-37194-1-ND" H 10300 4900 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R39
+L DRV8353S_dev_board-rescue:R-Device R39
 U 1 1 60393A36
 P 9150 5350
 F 0 "R39" H 9220 5396 50  0000 L CNN
@@ -1355,7 +1352,7 @@ $EndComp
 Connection ~ 9150 5200
 Connection ~ 9150 5500
 $Comp
-L Device:R R55
+L DRV8353S_dev_board-rescue:R-Device R55
 U 1 1 60393E35
 P 10400 5350
 F 0 "R55" H 10470 5396 50  0000 L CNN
@@ -1370,7 +1367,7 @@ $EndComp
 Connection ~ 10400 5200
 Connection ~ 10400 5500
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO2
+L DRV8353S_dev_board-rescue:Logo_Open_Hardware_Small-Graphic #LOGO2
 U 1 1 604CE8FD
 P 12250 1300
 F 0 "#LOGO2" H 12250 1575 50  0001 C CNN
@@ -1382,16 +1379,15 @@ F 5 "UART Cable Assembly" H 12250 1595 50  0000 C CNN "Note"
 	1    12250 1300
 	1    0    0    -1  
 $EndComp
-Text Label 700  6100 0    39   ~ 0
+Text Label 650  6100 0    39   ~ 0
 XTAL_IN
 Wire Wire Line
-	700  6100 1300 6100
-Text Label 700  6200 0    39   ~ 0
+	650  6100 1300 6100
+Text Label 650  6200 0    39   ~ 0
 XTAL_OUT
 Wire Wire Line
-	700  6200 1300 6200
+	650  6200 1300 6200
 NoConn ~ 1300 6300
-NoConn ~ 2300 7300
 Wire Wire Line
 	4550 3450 4550 3350
 Wire Wire Line
@@ -1413,7 +1409,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 4850 4350 4450
 $Comp
-L Connector:TestPoint TP4
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP4
 U 1 1 605697AB
 P 4350 4450
 F 0 "TP4" H 4408 4568 50  0000 L CNN
@@ -1445,7 +1441,7 @@ I_PHASE_B
 Text Label 6750 4850 2    39   ~ 0
 I_PHASE_C
 $Comp
-L Device:C_Small C17
+L DRV8353S_dev_board-rescue:C_Small-Device C17
 U 1 1 61046BAD
 P 4350 5000
 F 0 "C17" H 4442 5046 50  0000 L CNN
@@ -1467,7 +1463,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 4900 4700 4750
 $Comp
-L power:GND #PWR0137
+L DRV8353S_dev_board-rescue:GND-power #PWR0137
 U 1 1 61196B65
 P 4350 5100
 F 0 "#PWR0137" H 4350 4850 50  0001 C CNN
@@ -1478,7 +1474,7 @@ F 3 "" H 4350 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0138
+L DRV8353S_dev_board-rescue:GND-power #PWR0138
 U 1 1 611977C2
 P 4700 5100
 F 0 "#PWR0138" H 4700 4850 50  0001 C CNN
@@ -1489,7 +1485,7 @@ F 3 "" H 4700 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0139
+L DRV8353S_dev_board-rescue:GND-power #PWR0139
 U 1 1 611980B9
 P 5050 5100
 F 0 "#PWR0139" H 5050 4850 50  0001 C CNN
@@ -1500,7 +1496,7 @@ F 3 "" H 5050 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 60940F53
 P 6050 6150
 AR Path="/60313041/60940F53" Ref="#PWR?"  Part="1" 
@@ -1525,7 +1521,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 7000 5100 6800
 $Comp
-L power:GND #PWR0141
+L DRV8353S_dev_board-rescue:GND-power #PWR0141
 U 1 1 60A65959
 P 5100 7200
 F 0 "#PWR0141" H 5100 6950 50  0001 C CNN
@@ -1540,7 +1536,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 6600 5800 6350
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 6091DFEA
 P 5800 6150
 AR Path="/60313041/6091DFEA" Ref="#PWR?"  Part="1" 
@@ -1553,7 +1549,7 @@ F 3 "" H 5800 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 608ED318
 P 5100 6150
 AR Path="/60313041/608ED318" Ref="#PWR?"  Part="1" 
@@ -1635,19 +1631,19 @@ Wire Wire Line
 Wire Wire Line
 	4850 5600 5750 5600
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J3
+L DRV8353S_dev_board-rescue:Conn_02x03_Odd_Even-Connector_Generic J3
 U 1 1 60A4905A
-P 4900 2050
-F 0 "J3" H 4950 1850 50  0000 C CNN
-F 1 "SWD" H 4950 1700 50  0000 C CNN
-F 2 "Connector_PinSocket_1.27mm:PinSocket_2x03_P1.27mm_Vertical" H 4900 2050 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/GRPB_%20_2VWVN-RC%2010954-C.pdf" H 4900 2050 50  0001 C CNN
-F 4 "S9015E-03-ND" H 4900 2050 50  0001 C CNN "Digikey"
-	1    4900 2050
-	1    0    0    -1  
+P 5000 2050
+F 0 "J3" H 5050 1850 50  0000 C CNN
+F 1 "SWD" H 5050 1700 50  0000 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x03_P1.27mm_Vertical" H 5000 2050 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/GRPB_%20_2VWVN-RC%2010954-C.pdf" H 5000 2050 50  0001 C CNN
+F 4 "S9015E-03-ND" H 5000 2050 50  0001 C CNN "Digikey"
+	1    5000 2050
+	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Schottky_Small_ALT D4
+L DRV8353S_dev_board-rescue:D_Schottky_Small_ALT-Device D4
 U 1 1 60A49CE7
 P 5350 1950
 F 0 "D4" H 5500 1750 50  0000 C CNN
@@ -1660,7 +1656,7 @@ F 5 "497-6653-1-ND" H 5350 1950 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 60A4A293
 P 5550 1900
 AR Path="/60313041/60A4A293" Ref="#PWR?"  Part="1" 
@@ -1679,22 +1675,22 @@ Wire Wire Line
 Wire Wire Line
 	5250 1950 5200 1950
 $Comp
-L power:GND #PWR0145
+L DRV8353S_dev_board-rescue:GND-power #PWR0145
 U 1 1 60A99C9E
-P 5350 2250
-F 0 "#PWR0145" H 5350 2000 50  0001 C CNN
-F 1 "GND" H 5355 2077 50  0000 C CNN
-F 2 "" H 5350 2250 50  0001 C CNN
-F 3 "" H 5350 2250 50  0001 C CNN
-	1    5350 2250
-	-1   0    0    -1  
+P 4550 2250
+F 0 "#PWR0145" H 4550 2000 50  0001 C CNN
+F 1 "GND" H 4555 2077 50  0000 C CNN
+F 2 "" H 4550 2250 50  0001 C CNN
+F 3 "" H 4550 2250 50  0001 C CNN
+	1    4550 2250
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 2150 5350 2150
+	4700 2150 4550 2150
 Wire Wire Line
-	5350 2150 5350 2250
+	4550 2150 4550 2250
 $Comp
-L Device:C_Small C1
+L DRV8353S_dev_board-rescue:C_Small-Device C1
 U 1 1 60593BFA
 P 1100 4800
 F 0 "C1" H 1192 4846 50  0000 L CNN
@@ -1707,7 +1703,7 @@ F 5 "478-10188-1-ND" H 1100 4800 50  0001 C CNN "Digikey"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C6
+L DRV8353S_dev_board-rescue:C_Small-Device C6
 U 1 1 60594071
 P 1500 4800
 F 0 "C6" H 1592 4846 50  0000 L CNN
@@ -1728,7 +1724,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 4650 1100 4700
 $Comp
-L power:GND #PWR0146
+L DRV8353S_dev_board-rescue:GND-power #PWR0146
 U 1 1 605E246C
 P 1100 4900
 F 0 "#PWR0146" H 1100 4650 50  0001 C CNN
@@ -1739,7 +1735,7 @@ F 3 "" H 1100 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0147
+L DRV8353S_dev_board-rescue:GND-power #PWR0147
 U 1 1 605E26ED
 P 1500 4900
 F 0 "#PWR0147" H 1500 4650 50  0001 C CNN
@@ -1775,42 +1771,15 @@ $EndComp
 Wire Wire Line
 	7400 2800 7400 2700
 Wire Wire Line
-	7200 2800 7200 2700
-$Comp
-L power:+5V #PWR0148
-U 1 1 605678C0
-P 7400 2500
-F 0 "#PWR0148" H 7400 2350 50  0001 C CNN
-F 1 "+5V" H 7415 2673 50  0000 C CNN
-F 2 "" H 7400 2500 50  0001 C CNN
-F 3 "" H 7400 2500 50  0001 C CNN
-	1    7400 2500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 605681A5
-P 7200 2500
-AR Path="/60313041/605681A5" Ref="#PWR?"  Part="1" 
-AR Path="/605681A5" Ref="#PWR0149"  Part="1" 
-F 0 "#PWR0149" H 7200 2350 50  0001 C CNN
-F 1 "+3V3" H 7215 2673 50  0000 C CNN
-F 2 "" H 7200 2500 50  0001 C CNN
-F 3 "" H 7200 2500 50  0001 C CNN
-	1    7200 2500
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 7400 2600
-Wire Wire Line
 	5150 3800 5150 3650
 Wire Wire Line
 	4850 3800 4850 3550
 Wire Wire Line
 	4550 3800 4550 3450
-Text Notes 5650 4400 0    39   Italic 0
+Text Notes 5200 4300 0    39   Italic 0
 - RC corner frequency 21kHz \n- No zener needed since supplied\nby 3v3 supply
 $Comp
-L Connector:TestPoint TP1
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP1
 U 1 1 60462206
 P 2700 900
 F 0 "TP1" H 2750 1100 50  0000 L CNN
@@ -1822,7 +1791,7 @@ F 4 "" H 2700 900 50  0001 C CNN "Digikey"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP2
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP2
 U 1 1 60463AEB
 P 2700 1650
 F 0 "TP2" H 2750 1850 50  0000 L CNN
@@ -1839,7 +1808,7 @@ Wire Wire Line
 Connection ~ 6050 6500
 Connection ~ 5800 6600
 $Comp
-L Device:C_Small C19
+L DRV8353S_dev_board-rescue:C_Small-Device C19
 U 1 1 60A58170
 P 5100 7100
 F 0 "C19" H 5100 6900 50  0000 R CNN
@@ -1866,7 +1835,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 6700 5350 6700
 $Comp
-L power:GND #PWR0150
+L DRV8353S_dev_board-rescue:GND-power #PWR0150
 U 1 1 609070FC
 P 5350 7200
 F 0 "#PWR0150" H 5350 6950 50  0001 C CNN
@@ -1877,7 +1846,7 @@ F 3 "" H 5350 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0151
+L DRV8353S_dev_board-rescue:GND-power #PWR0151
 U 1 1 60A7F7F6
 P 5550 7200
 F 0 "#PWR0151" H 5550 6950 50  0001 C CNN
@@ -1894,7 +1863,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 7000 6050 6500
 $Comp
-L power:GND #PWR0152
+L DRV8353S_dev_board-rescue:GND-power #PWR0152
 U 1 1 60A9A1CD
 P 6050 7200
 F 0 "#PWR0152" H 6050 6950 50  0001 C CNN
@@ -1907,7 +1876,7 @@ $EndComp
 Wire Wire Line
 	6300 7000 6300 6400
 $Comp
-L power:GND #PWR0153
+L DRV8353S_dev_board-rescue:GND-power #PWR0153
 U 1 1 609CF81C
 P 6300 7200
 F 0 "#PWR0153" H 6300 6950 50  0001 C CNN
@@ -1918,7 +1887,7 @@ F 3 "" H 6300 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0154
+L DRV8353S_dev_board-rescue:GND-power #PWR0154
 U 1 1 60AC9D7F
 P 5800 7200
 F 0 "#PWR0154" H 5800 6950 50  0001 C CNN
@@ -1937,7 +1906,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 3950 7900 3900
 $Comp
-L power:Vdrive #PWR0155
+L DRV8353S_dev_board-rescue:Vdrive-power #PWR0155
 U 1 1 60419E4C
 P 10400 3900
 F 0 "#PWR0155" H 10200 3750 50  0001 C CNN
@@ -1948,7 +1917,7 @@ F 3 "" H 10400 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Vdrive #PWR0156
+L DRV8353S_dev_board-rescue:Vdrive-power #PWR0156
 U 1 1 603ACDED
 P 7900 3900
 F 0 "#PWR0156" H 7700 3750 50  0001 C CNN
@@ -1959,7 +1928,7 @@ F 3 "" H 7900 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Vdrive #PWR0157
+L DRV8353S_dev_board-rescue:Vdrive-power #PWR0157
 U 1 1 603F8991
 P 9150 3900
 F 0 "#PWR0157" H 8950 3750 50  0001 C CNN
@@ -1976,7 +1945,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 5550 7900 5500
 $Comp
-L power:GND #PWR0158
+L DRV8353S_dev_board-rescue:GND-power #PWR0158
 U 1 1 60419E43
 P 10400 5550
 F 0 "#PWR0158" H 10400 5300 50  0001 C CNN
@@ -1987,7 +1956,7 @@ F 3 "" H 10400 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0159
+L DRV8353S_dev_board-rescue:GND-power #PWR0159
 U 1 1 603A50C8
 P 7900 5550
 F 0 "#PWR0159" H 7900 5300 50  0001 C CNN
@@ -1998,7 +1967,7 @@ F 3 "" H 7900 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0160
+L DRV8353S_dev_board-rescue:GND-power #PWR0160
 U 1 1 603F8988
 P 9150 5550
 F 0 "#PWR0160" H 9150 5300 50  0001 C CNN
@@ -2013,7 +1982,7 @@ Decoupling capacitor footprint designed to accomodate:\n- 1x Rubycon Polymer 6.3
 Text Label 6000 3200 0    39   ~ 0
 ~DRV8353_FAULT
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 6091E219
 P 6750 2950
 AR Path="/60313041/6091E219" Ref="#PWR?"  Part="1" 
@@ -2030,7 +1999,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3200 6450 3200
 $Comp
-L power:GND #PWR0162
+L DRV8353S_dev_board-rescue:GND-power #PWR0162
 U 1 1 6096E63E
 P 6750 3800
 F 0 "#PWR0162" H 6750 3550 50  0001 C CNN
@@ -2041,7 +2010,7 @@ F 3 "" H 6750 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PMOS_GSD Q1
+L DRV8353S_dev_board-rescue:Q_PMOS_GSD-Device Q1
 U 1 1 60998213
 P 6650 3200
 F 0 "Q1" H 6854 3246 50  0000 L CNN
@@ -2055,7 +2024,7 @@ $EndComp
 Text Notes 5800 3750 0    39   Italic 0
 HSD fault so DRV IC doesn't\nhave to sink LED current
 $Comp
-L Switch:SW_SPST SW1
+L DRV8353S_dev_board-rescue:SW_SPST-Switch SW1
 U 1 1 6035387A
 P 1100 3100
 F 0 "SW1" H 950 3150 50  0000 C CNN
@@ -2067,7 +2036,7 @@ F 4 "SW1020CT-ND" H 1100 3100 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPST SW2
+L DRV8353S_dev_board-rescue:SW_SPST-Switch SW2
 U 1 1 609A8AE2
 P 1100 3250
 F 0 "SW2" H 950 3300 50  0000 C CNN
@@ -2079,7 +2048,7 @@ F 4 "SW1020CT-ND" H 1100 3250 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPST SW3
+L DRV8353S_dev_board-rescue:SW_SPST-Switch SW3
 U 1 1 609A8D53
 P 1100 3400
 F 0 "SW3" H 950 3450 50  0000 C CNN
@@ -2091,7 +2060,7 @@ F 4 "SW1020CT-ND" H 1100 3400 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPST SW4
+L DRV8353S_dev_board-rescue:SW_SPST-Switch SW4
 U 1 1 609A8F9C
 P 1100 3550
 F 0 "SW4" H 950 3600 50  0000 C CNN
@@ -2119,7 +2088,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 2800 2650 3550
 $Comp
-L Switch:SW_DIP_x01 SW5
+L DRV8353S_dev_board-rescue:SW_DIP_x01-Switch SW5
 U 1 1 606C4379
 P 1150 2900
 F 0 "SW5" H 900 2950 50  0000 C CNN
@@ -2131,7 +2100,7 @@ F 4 "563-1003-1-ND" H 1150 2900 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 606160B7
 P 2650 2600
 AR Path="/60313041/606160B7" Ref="#PWR?"  Part="1" 
@@ -2144,7 +2113,7 @@ F 3 "" H 2650 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 60615E40
 P 2400 2600
 AR Path="/60313041/60615E40" Ref="#PWR?"  Part="1" 
@@ -2157,7 +2126,7 @@ F 3 "" H 2400 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 60615C1B
 P 2150 2600
 AR Path="/60313041/60615C1B" Ref="#PWR?"  Part="1" 
@@ -2170,7 +2139,7 @@ F 3 "" H 2150 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 606156D6
 P 1900 2600
 AR Path="/60313041/606156D6" Ref="#PWR?"  Part="1" 
@@ -2189,7 +2158,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 3700 2400 3400
 $Comp
-L power:GND #PWR0167
+L DRV8353S_dev_board-rescue:GND-power #PWR0167
 U 1 1 605FB19F
 P 1900 3900
 F 0 "#PWR0167" H 1900 3650 50  0001 C CNN
@@ -2200,7 +2169,7 @@ F 3 "" H 1900 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0168
+L DRV8353S_dev_board-rescue:GND-power #PWR0168
 U 1 1 605FB541
 P 2150 3900
 F 0 "#PWR0168" H 2150 3650 50  0001 C CNN
@@ -2211,7 +2180,7 @@ F 3 "" H 2150 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0169
+L DRV8353S_dev_board-rescue:GND-power #PWR0169
 U 1 1 605FB6B9
 P 2400 3900
 F 0 "#PWR0169" H 2400 3650 50  0001 C CNN
@@ -2222,7 +2191,7 @@ F 3 "" H 2400 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0170
+L DRV8353S_dev_board-rescue:GND-power #PWR0170
 U 1 1 605FB8F3
 P 2650 3900
 F 0 "#PWR0170" H 2650 3650 50  0001 C CNN
@@ -2256,7 +2225,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 2900 1650 2800
 $Comp
-L Connector_Generic:Conn_01x03 J5
+L DRV8353S_dev_board-rescue:Conn_01x03-Connector_Generic J5
 U 1 1 60B55A8A
 P 10450 6050
 F 0 "J5" H 10650 6150 50  0000 C CNN
@@ -2280,7 +2249,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 5950 10250 5950
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO3
+L DRV8353S_dev_board-rescue:Logo_Open_Hardware_Small-Graphic #LOGO3
 U 1 1 60C49AFA
 P 12250 2000
 F 0 "#LOGO3" H 12250 2275 50  0001 C CNN
@@ -2293,7 +2262,7 @@ F 5 "Phase Connector Terminals" H 12250 2295 50  0000 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO4
+L DRV8353S_dev_board-rescue:Logo_Open_Hardware_Small-Graphic #LOGO4
 U 1 1 60C4B1FE
 P 12250 2650
 F 0 "#LOGO4" H 12250 2925 50  0001 C CNN
@@ -2306,7 +2275,7 @@ F 5 "Phase Connector Housing" H 12250 2945 50  0000 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 60C79B2E
 P 6250 5350
 AR Path="/60313041/60C79B2E" Ref="#PWR?"  Part="1" 
@@ -2340,7 +2309,7 @@ SDO needed \nPU since it's OD output
 Text Notes 9650 6450 0    39   Italic 0
 Expose solder mask at phase connections\nto act as pad for solderingin unlikely case \nconnector system does not work
 $Comp
-L Device:D_Schottky_Small_ALT D5
+L DRV8353S_dev_board-rescue:D_Schottky_Small_ALT-Device D5
 U 1 1 60F024BB
 P 6450 1950
 F 0 "D5" H 6600 1750 50  0000 C CNN
@@ -2353,14 +2322,11 @@ F 5 "497-6653-1-ND" H 6450 1950 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7400 2800 7200 2800
-Connection ~ 7400 2800
-Wire Wire Line
 	4350 4850 4350 4900
 Wire Wire Line
 	3700 4650 5050 4650
 $Comp
-L power:+5V #PWR0172
+L DRV8353S_dev_board-rescue:+5V-power #PWR0172
 U 1 1 61120474
 P 5200 2900
 F 0 "#PWR0172" H 5200 2750 50  0001 C CNN
@@ -2371,7 +2337,7 @@ F 3 "" H 5200 2900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 6112047A
 P 5000 2900
 AR Path="/60313041/6112047A" Ref="#PWR?"  Part="1" 
@@ -2392,7 +2358,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 3100 5200 3150
 $Comp
-L Connector_Generic:Conn_01x02 J1
+L DRV8353S_dev_board-rescue:Conn_01x02-Connector_Generic J1
 U 1 1 603D5C7C
 P 3450 2100
 F 0 "J1" H 3450 2300 50  0000 C CNN
@@ -2404,7 +2370,7 @@ F 4 "WM6461-ND" H 3450 2100 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO5
+L DRV8353S_dev_board-rescue:Logo_Open_Hardware_Small-Graphic #LOGO5
 U 1 1 6043CB0A
 P 12250 3300
 F 0 "#LOGO5" H 12250 3575 50  0001 C CNN
@@ -2417,7 +2383,7 @@ F 5 "DC Connector Assembly" H 12250 3595 50  0000 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R41
+L DRV8353S_dev_board-rescue:R_Small-Device R41
 U 1 1 6043DA98
 P 10000 1750
 F 0 "R41" V 10050 1900 50  0000 C CNN
@@ -2429,7 +2395,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 1750 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R42
+L DRV8353S_dev_board-rescue:R_Small-Device R42
 U 1 1 6043DD6D
 P 10000 1850
 F 0 "R42" V 10050 2000 50  0000 C CNN
@@ -2441,7 +2407,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 1850 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R43
+L DRV8353S_dev_board-rescue:R_Small-Device R43
 U 1 1 6043DF16
 P 10000 1950
 F 0 "R43" V 10050 2100 50  0000 C CNN
@@ -2453,7 +2419,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 1950 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R44
+L DRV8353S_dev_board-rescue:R_Small-Device R44
 U 1 1 6043E09F
 P 10000 2050
 F 0 "R44" V 10050 2200 50  0000 C CNN
@@ -2465,7 +2431,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 2050 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R45
+L DRV8353S_dev_board-rescue:R_Small-Device R45
 U 1 1 6043E1D4
 P 10000 2300
 F 0 "R45" V 10050 2450 50  0000 C CNN
@@ -2477,7 +2443,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 2300 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R46
+L DRV8353S_dev_board-rescue:R_Small-Device R46
 U 1 1 6043E530
 P 10000 2400
 F 0 "R46" V 10050 2550 50  0000 C CNN
@@ -2489,7 +2455,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 2400 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R47
+L DRV8353S_dev_board-rescue:R_Small-Device R47
 U 1 1 6043E6B3
 P 10000 2500
 F 0 "R47" V 10050 2650 50  0000 C CNN
@@ -2501,7 +2467,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 2500 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R48
+L DRV8353S_dev_board-rescue:R_Small-Device R48
 U 1 1 6043E898
 P 10000 2600
 F 0 "R48" V 10050 2750 50  0000 C CNN
@@ -2513,7 +2479,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 2600 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R49
+L DRV8353S_dev_board-rescue:R_Small-Device R49
 U 1 1 6043E9F5
 P 10000 2700
 F 0 "R49" V 10050 2850 50  0000 C CNN
@@ -2525,7 +2491,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 2700 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R50
+L DRV8353S_dev_board-rescue:R_Small-Device R50
 U 1 1 6043EC50
 P 10000 2950
 F 0 "R50" V 10050 3100 50  0000 C CNN
@@ -2537,7 +2503,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 2950 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R51
+L DRV8353S_dev_board-rescue:R_Small-Device R51
 U 1 1 6043EE5B
 P 10000 3050
 F 0 "R51" V 10050 3200 50  0000 C CNN
@@ -2549,7 +2515,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 3050 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R52
+L DRV8353S_dev_board-rescue:R_Small-Device R52
 U 1 1 6043EFA6
 P 10000 3150
 F 0 "R52" V 10050 3300 50  0000 C CNN
@@ -2561,7 +2527,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 3150 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R53
+L DRV8353S_dev_board-rescue:R_Small-Device R53
 U 1 1 6043F17F
 P 10000 3250
 F 0 "R53" V 10050 3400 50  0000 C CNN
@@ -2573,7 +2539,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 3250 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R54
+L DRV8353S_dev_board-rescue:R_Small-Device R54
 U 1 1 6043F332
 P 10000 3350
 F 0 "R54" V 10050 3500 50  0000 C CNN
@@ -2585,7 +2551,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 10000 3350 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R29
+L DRV8353S_dev_board-rescue:R_Small-Device R29
 U 1 1 6043F748
 P 5950 4650
 F 0 "R29" V 6000 4850 50  0000 C CNN
@@ -2597,7 +2563,7 @@ F 4 "CR0603-JW-331ELFCT-ND" V 5950 4650 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R11
+L DRV8353S_dev_board-rescue:R_Small-Device R11
 U 1 1 6043FFE1
 P 4750 5600
 F 0 "R11" V 4800 5750 50  0000 C CNN
@@ -2609,7 +2575,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 4750 5600 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R12
+L DRV8353S_dev_board-rescue:R_Small-Device R12
 U 1 1 604404A4
 P 4750 5700
 F 0 "R12" V 4800 5850 50  0000 C CNN
@@ -2621,7 +2587,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 4750 5700 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R13
+L DRV8353S_dev_board-rescue:R_Small-Device R13
 U 1 1 604405BD
 P 4750 5800
 F 0 "R13" V 4800 5950 50  0000 C CNN
@@ -2633,7 +2599,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 4750 5800 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R14
+L DRV8353S_dev_board-rescue:R_Small-Device R14
 U 1 1 604406E2
 P 4750 5900
 F 0 "R14" V 4800 6050 50  0000 C CNN
@@ -2645,7 +2611,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 4750 5900 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R23
+L DRV8353S_dev_board-rescue:R_Small-Device R23
 U 1 1 60440F28
 P 4400 3450
 F 0 "R23" V 4450 3600 50  0000 C CNN
@@ -2657,7 +2623,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 4400 3450 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R24
+L DRV8353S_dev_board-rescue:R_Small-Device R24
 U 1 1 604413A1
 P 4400 3550
 F 0 "R24" V 4450 3700 50  0000 C CNN
@@ -2669,7 +2635,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 4400 3550 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R20
+L DRV8353S_dev_board-rescue:R_Small-Device R20
 U 1 1 60441675
 P 5000 3000
 F 0 "R20" H 5100 3050 50  0000 C CNN
@@ -2681,7 +2647,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 5000 3000 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R22
+L DRV8353S_dev_board-rescue:R_Small-Device R22
 U 1 1 6044292E
 P 5200 3000
 F 0 "R22" H 5300 3050 50  0000 C CNN
@@ -2693,31 +2659,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 5200 3000 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R37
-U 1 1 60442BAD
-P 7400 2600
-F 0 "R37" H 7500 2650 50  0000 C CNN
-F 1 "0" H 7500 2550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7400 2600 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 7400 2600 50  0001 C CNN
-F 4 "RMCF0603ZT0R00CT-ND" V 7400 2600 50  0001 C CNN "Digikey"
-	1    7400 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R36
-U 1 1 60443B35
-P 7200 2600
-F 0 "R36" H 7300 2650 50  0000 C CNN
-F 1 "0" H 7300 2550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7200 2600 50  0001 C CNN
-F 3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" H 7200 2600 50  0001 C CNN
-F 4 "RMCF0603ZT0R00CT-ND" V 7200 2600 50  0001 C CNN "Digikey"
-	1    7200 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_Small D2
+L DRV8353S_dev_board-rescue:LED_Small-Device D2
 U 1 1 60445C5C
 P 2950 4850
 F 0 "D2" V 2996 4780 50  0000 R CNN
@@ -2729,7 +2671,7 @@ F 4 "732-4971-1-ND" V 2950 4850 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_Small D6
+L DRV8353S_dev_board-rescue:LED_Small-Device D6
 U 1 1 604462E1
 P 6750 3700
 F 0 "D6" V 6796 3630 50  0000 R CNN
@@ -2743,7 +2685,7 @@ $EndComp
 Text Notes 4400 7650 0    39   Italic 0
 Min motor frequency (14 pole, 2.11:1 gear ratio) is 100-150Hz. \nRC corner frequencies equal to this. 
 $Comp
-L Device:C_Small C24
+L DRV8353S_dev_board-rescue:C_Small-Device C24
 U 1 1 6049D48E
 P 7300 1100
 F 0 "C24" H 7300 1300 50  0000 L CNN
@@ -2756,7 +2698,7 @@ F 5 "445-181609-1-ND" H 7300 1100 50  0001 C CNN "Digikey"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0174
+L DRV8353S_dev_board-rescue:GND-power #PWR0174
 U 1 1 6049DA90
 P 7300 1200
 F 0 "#PWR0174" H 7300 950 50  0001 C CNN
@@ -2769,7 +2711,7 @@ $EndComp
 Wire Wire Line
 	7300 1000 7300 750 
 $Comp
-L Device:R_Small R15
+L DRV8353S_dev_board-rescue:R_Small-Device R15
 U 1 1 605195FA
 P 4750 6400
 F 0 "R15" V 4800 6550 50  0000 C CNN
@@ -2781,7 +2723,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 4750 6400 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R16
+L DRV8353S_dev_board-rescue:R_Small-Device R16
 U 1 1 60519C63
 P 4750 6500
 F 0 "R16" V 4800 6650 50  0000 C CNN
@@ -2793,7 +2735,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 4750 6500 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R17
+L DRV8353S_dev_board-rescue:R_Small-Device R17
 U 1 1 60519DDC
 P 4750 6600
 F 0 "R17" V 4800 6750 50  0000 C CNN
@@ -2805,7 +2747,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 4750 6600 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R18
+L DRV8353S_dev_board-rescue:R_Small-Device R18
 U 1 1 60519F29
 P 4750 6700
 F 0 "R18" V 4800 6850 50  0000 C CNN
@@ -2817,7 +2759,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 4750 6700 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R19
+L DRV8353S_dev_board-rescue:R_Small-Device R19
 U 1 1 6051A06C
 P 4750 6800
 F 0 "R19" V 4800 6950 50  0000 C CNN
@@ -2829,7 +2771,7 @@ F 4 "RMCF0603ZT0R00CT-ND" V 4750 6800 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R30
+L DRV8353S_dev_board-rescue:R_Small-Device R30
 U 1 1 6051B911
 P 5950 4750
 F 0 "R30" V 6000 4950 50  0000 C CNN
@@ -2841,7 +2783,7 @@ F 4 "CR0603-JW-331ELFCT-ND" V 5950 4750 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R31
+L DRV8353S_dev_board-rescue:R_Small-Device R31
 U 1 1 6051BAC6
 P 5950 4850
 F 0 "R31" V 6000 5050 50  0000 C CNN
@@ -2853,7 +2795,7 @@ F 4 "CR0603-JW-331ELFCT-ND" V 5950 4850 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C18
+L DRV8353S_dev_board-rescue:C_Small-Device C18
 U 1 1 6051BD46
 P 4700 5000
 F 0 "C18" H 4792 5046 50  0000 L CNN
@@ -2865,7 +2807,7 @@ F 4 "445-5663-1-ND" H 4700 5000 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C20
+L DRV8353S_dev_board-rescue:C_Small-Device C20
 U 1 1 6051C257
 P 5050 5000
 F 0 "C20" H 5142 5046 50  0000 L CNN
@@ -2877,7 +2819,7 @@ F 4 "445-5663-1-ND" H 5050 5000 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R35
+L DRV8353S_dev_board-rescue:R_Small-Device R35
 U 1 1 605208EB
 P 6750 3500
 F 0 "R35" H 6691 3454 50  0000 R CNN
@@ -2888,7 +2830,7 @@ F 3 "~" H 6750 3500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R32
+L DRV8353S_dev_board-rescue:R_Small-Device R32
 U 1 1 605213C4
 P 6050 6250
 F 0 "R32" H 5991 6204 50  0000 R CNN
@@ -2899,7 +2841,7 @@ F 3 "~" H 6050 6250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R33
+L DRV8353S_dev_board-rescue:R_Small-Device R33
 U 1 1 60521C0E
 P 6250 5450
 F 0 "R33" H 6191 5404 50  0000 R CNN
@@ -2910,7 +2852,7 @@ F 3 "~" H 6250 5450 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R27
+L DRV8353S_dev_board-rescue:R_Small-Device R27
 U 1 1 60522496
 P 5350 7100
 F 0 "R27" H 5350 6900 50  0000 R CNN
@@ -2921,7 +2863,7 @@ F 3 "~" H 5350 7100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R28
+L DRV8353S_dev_board-rescue:R_Small-Device R28
 U 1 1 605227A0
 P 5800 6250
 F 0 "R28" H 5741 6204 50  0000 R CNN
@@ -2932,7 +2874,7 @@ F 3 "~" H 5800 6250 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R26
+L DRV8353S_dev_board-rescue:R_Small-Device R26
 U 1 1 60522C9E
 P 5100 6250
 F 0 "R26" H 5041 6204 50  0000 R CNN
@@ -2943,7 +2885,7 @@ F 3 "~" H 5100 6250 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R34
+L DRV8353S_dev_board-rescue:R_Small-Device R34
 U 1 1 60522FC5
 P 6300 7100
 F 0 "R34" H 6241 7054 50  0000 R CNN
@@ -2954,7 +2896,7 @@ F 3 "~" H 6300 7100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R7
+L DRV8353S_dev_board-rescue:R_Small-Device R7
 U 1 1 60526D94
 P 2950 4650
 F 0 "R7" H 2900 4500 50  0000 R CNN
@@ -2966,7 +2908,7 @@ F 4 "0.25W" H 2800 4700 50  0000 C CNN "Power"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R8
+L DRV8353S_dev_board-rescue:R_Small-Device R8
 U 1 1 60527131
 P 3250 4650
 F 0 "R8" H 3200 4500 50  0000 R CNN
@@ -2982,7 +2924,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 5150 3250 5150
 $Comp
-L Device:C C30
+L DRV8353S_dev_board-rescue:C-Device C30
 U 1 1 605D3D01
 P 9450 4150
 F 0 "C30" H 9550 4250 50  0000 L CNN
@@ -2995,7 +2937,7 @@ F 5 "100V" H 9650 4050 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C33
+L DRV8353S_dev_board-rescue:C-Device C33
 U 1 1 605D410B
 P 10700 4150
 F 0 "C33" H 10800 4250 50  0000 L CNN
@@ -3008,7 +2950,7 @@ F 5 "100V" H 10900 4050 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C21
+L DRV8353S_dev_board-rescue:C_Small-Device C21
 U 1 1 605D648F
 P 5550 7100
 F 0 "C21" H 5550 6900 50  0000 R CNN
@@ -3021,7 +2963,7 @@ F 5 "445-5663-1-ND" H 5550 7100 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C22
+L DRV8353S_dev_board-rescue:C_Small-Device C22
 U 1 1 605D688A
 P 5800 7100
 F 0 "C22" H 5800 6900 50  0000 R CNN
@@ -3034,7 +2976,7 @@ F 5 "445-5663-1-ND" H 5800 7100 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C23
+L DRV8353S_dev_board-rescue:C_Small-Device C23
 U 1 1 605D6C13
 P 6050 7100
 F 0 "C23" H 6050 6900 50  0000 R CNN
@@ -3047,7 +2989,7 @@ F 5 "445-5663-1-ND" H 6050 7100 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R9
+L DRV8353S_dev_board-rescue:R_Small-Device R9
 U 1 1 605D78C0
 P 4550 3250
 F 0 "R9" H 4491 3204 50  0000 R CNN
@@ -3058,7 +3000,7 @@ F 3 "~" H 4550 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R10
+L DRV8353S_dev_board-rescue:R_Small-Device R10
 U 1 1 605D816D
 P 4850 3250
 F 0 "R10" H 4791 3204 50  0000 R CNN
@@ -3069,7 +3011,7 @@ F 3 "~" H 4850 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R21
+L DRV8353S_dev_board-rescue:R_Small-Device R21
 U 1 1 605D838E
 P 5150 3250
 F 0 "R21" H 5091 3204 50  0000 R CNN
@@ -3084,7 +3026,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 2050 1150 2000
 $Comp
-L power:GND #PWR0175
+L DRV8353S_dev_board-rescue:GND-power #PWR0175
 U 1 1 6062B513
 P 1150 2050
 F 0 "#PWR0175" H 1150 1800 50  0001 C CNN
@@ -3099,7 +3041,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 2050 1400 2000
 $Comp
-L power:GND #PWR0176
+L DRV8353S_dev_board-rescue:GND-power #PWR0176
 U 1 1 6062B51B
 P 1400 2050
 F 0 "#PWR0176" H 1400 1800 50  0001 C CNN
@@ -3110,7 +3052,7 @@ F 3 "" H 1400 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C5
+L DRV8353S_dev_board-rescue:C_Small-Device C5
 U 1 1 6062B529
 P 1400 1900
 F 0 "C5" H 1300 1750 50  0000 R CNN
@@ -3134,7 +3076,7 @@ Wire Wire Line
 Text Notes 7650 1700 0    39   Italic 0
 Used in 1x PWM mode so \npins have AF
 $Comp
-L Device:C_Small C3
+L DRV8353S_dev_board-rescue:C_Small-Device C3
 U 1 1 605FC029
 P 1150 1900
 F 0 "C3" H 1100 1750 50  0000 R CNN
@@ -3147,7 +3089,7 @@ F 5 "478-12143-1-ND" H 1150 1900 50  0001 C CNN "Digikey"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C28
+L DRV8353S_dev_board-rescue:C_Small-Device C28
 U 1 1 60604AFE
 P 7950 1100
 F 0 "C28" H 8050 1200 50  0000 L CNN
@@ -3160,33 +3102,33 @@ F 5 "478-12143-1-ND" H 7950 1100 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C15
+L DRV8353S_dev_board-rescue:C_Small-Device C15
 U 1 1 60624D59
-P 3500 7350
-F 0 "C15" H 3408 7304 50  0000 R CNN
-F 1 "1uF" H 3408 7395 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3500 7350 50  0001 C CNN
-F 3 "~" H 3500 7350 50  0001 C CNN
-F 4 "6.3V" H 3350 7500 50  0000 C CNN "Voltage"
-F 5 "478-12143-1-ND" H 3500 7350 50  0001 C CNN "Digikey"
-	1    3500 7350
+P 3650 7400
+F 0 "C15" H 3558 7354 50  0000 R CNN
+F 1 "1uF" H 3558 7445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3650 7400 50  0001 C CNN
+F 3 "~" H 3650 7400 50  0001 C CNN
+F 4 "6.3V" H 3500 7550 50  0000 C CNN "Voltage"
+F 5 "478-12143-1-ND" H 3650 7400 50  0001 C CNN "Digikey"
+	1    3650 7400
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C16
+L DRV8353S_dev_board-rescue:C_Small-Device C16
 U 1 1 6062561D
-P 3800 7350
-F 0 "C16" H 3708 7304 50  0000 R CNN
-F 1 "1uF" H 3708 7395 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3800 7350 50  0001 C CNN
-F 3 "~" H 3800 7350 50  0001 C CNN
-F 4 "6.3V" H 3650 7500 50  0000 C CNN "Voltage"
-F 5 "478-12143-1-ND" H 3800 7350 50  0001 C CNN "Digikey"
-	1    3800 7350
+P 3950 7400
+F 0 "C16" H 3858 7354 50  0000 R CNN
+F 1 "1uF" H 3858 7445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3950 7400 50  0001 C CNN
+F 3 "~" H 3950 7400 50  0001 C CNN
+F 4 "6.3V" H 3800 7550 50  0000 C CNN "Voltage"
+F 5 "478-12143-1-ND" H 3950 7400 50  0001 C CNN "Digikey"
+	1    3950 7400
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C7
+L DRV8353S_dev_board-rescue:C_Small-Device C7
 U 1 1 607895ED
 P 1650 3800
 F 0 "C7" H 1650 3600 50  0000 R CNN
@@ -3199,7 +3141,7 @@ F 5 "445-5663-1-ND" H 1650 3800 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C8
+L DRV8353S_dev_board-rescue:C_Small-Device C8
 U 1 1 6078A354
 P 1900 3800
 F 0 "C8" H 1900 3600 50  0000 R CNN
@@ -3212,7 +3154,7 @@ F 5 "445-5663-1-ND" H 1900 3800 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C9
+L DRV8353S_dev_board-rescue:C_Small-Device C9
 U 1 1 6078A6D9
 P 2150 3800
 F 0 "C9" H 2150 3600 50  0000 R CNN
@@ -3225,7 +3167,7 @@ F 5 "445-5663-1-ND" H 2150 3800 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C10
+L DRV8353S_dev_board-rescue:C_Small-Device C10
 U 1 1 6078ABFA
 P 2400 3800
 F 0 "C10" H 2400 3600 50  0000 R CNN
@@ -3238,7 +3180,7 @@ F 5 "445-5663-1-ND" H 2400 3800 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C11
+L DRV8353S_dev_board-rescue:C_Small-Device C11
 U 1 1 6078B5AF
 P 2650 3800
 F 0 "C11" H 2650 3600 50  0000 R CNN
@@ -3251,7 +3193,7 @@ F 5 "445-5663-1-ND" H 2650 3800 50  0001 C CNN "Digikey"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R1
+L DRV8353S_dev_board-rescue:R_Small-Device R1
 U 1 1 607CB1D5
 P 1650 2700
 F 0 "R1" H 1850 2650 50  0000 R CNN
@@ -3262,7 +3204,7 @@ F 3 "~" H 1650 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R2
+L DRV8353S_dev_board-rescue:R_Small-Device R2
 U 1 1 607D4BFA
 P 1900 2700
 F 0 "R2" H 2100 2650 50  0000 R CNN
@@ -3273,7 +3215,7 @@ F 3 "~" H 1900 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R3
+L DRV8353S_dev_board-rescue:R_Small-Device R3
 U 1 1 607D5329
 P 2150 2700
 F 0 "R3" H 2350 2650 50  0000 R CNN
@@ -3284,7 +3226,7 @@ F 3 "~" H 2150 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R4
+L DRV8353S_dev_board-rescue:R_Small-Device R4
 U 1 1 607D5AA8
 P 2400 2700
 F 0 "R4" H 2600 2650 50  0000 R CNN
@@ -3295,7 +3237,7 @@ F 3 "~" H 2400 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R5
+L DRV8353S_dev_board-rescue:R_Small-Device R5
 U 1 1 607D628E
 P 2650 2700
 F 0 "R5" H 2850 2650 50  0000 R CNN
@@ -3306,7 +3248,7 @@ F 3 "~" H 2650 2700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP7
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP7
 U 1 1 604F9342
 P 4700 4450
 F 0 "TP7" H 4758 4568 50  0000 L CNN
@@ -3318,7 +3260,7 @@ F 4 "36-5001-ND" H 4700 4450 50  0001 C CNN "Digikey"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP11
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP11
 U 1 1 604F9F69
 P 5050 4450
 F 0 "TP11" H 5108 4568 50  0000 L CNN
@@ -3330,7 +3272,7 @@ F 4 "36-5001-ND" H 5050 4450 50  0001 C CNN "Digikey"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP8
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP8
 U 1 1 604FE8B6
 P 5000 5550
 F 0 "TP8" H 5058 5668 50  0000 L CNN
@@ -3342,7 +3284,7 @@ F 4 "36-5001-ND" H 5000 5550 50  0001 C CNN "Digikey"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP9
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP9
 U 1 1 604FEF45
 P 5250 5550
 F 0 "TP9" H 5308 5668 50  0000 L CNN
@@ -3354,7 +3296,7 @@ F 4 "36-5001-ND" H 5250 5550 50  0001 C CNN "Digikey"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP10
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP10
 U 1 1 604FF7F0
 P 5500 5550
 F 0 "TP10" H 5558 5668 50  0000 L CNN
@@ -3366,7 +3308,7 @@ F 4 "36-5001-ND" H 5500 5550 50  0001 C CNN "Digikey"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP12
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP12
 U 1 1 60500171
 P 5750 5550
 F 0 "TP12" H 5808 5668 50  0000 L CNN
@@ -3378,7 +3320,7 @@ F 4 "36-5001-ND" H 5750 5550 50  0001 C CNN "Digikey"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP13
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP13
 U 1 1 60501E52
 P 6300 6250
 F 0 "TP13" H 6358 6368 50  0000 L CNN
@@ -3390,7 +3332,7 @@ F 4 "36-5001-ND" H 6300 6250 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP14
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP14
 U 1 1 6050389B
 P 10350 1600
 F 0 "TP14" H 10408 1718 50  0000 L CNN
@@ -3402,7 +3344,7 @@ F 4 "36-5001-ND" H 10350 1600 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP17
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP17
 U 1 1 6052213B
 P 10600 1600
 F 0 "TP17" H 10658 1718 50  0000 L CNN
@@ -3414,7 +3356,7 @@ F 4 "36-5001-ND" H 10600 1600 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP15
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP15
 U 1 1 605224DC
 P 10400 2250
 F 0 "TP15" H 10458 2368 50  0000 L CNN
@@ -3426,7 +3368,7 @@ F 4 "36-5001-ND" H 10400 2250 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP18
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP18
 U 1 1 60522AFF
 P 10650 2250
 F 0 "TP18" H 10708 2368 50  0000 L CNN
@@ -3438,7 +3380,7 @@ F 4 "36-5001-ND" H 10650 2250 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP16
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP16
 U 1 1 60523152
 P 10450 2900
 F 0 "TP16" H 10508 3018 50  0000 L CNN
@@ -3450,7 +3392,7 @@ F 4 "36-5001-ND" H 10450 2900 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP19
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP19
 U 1 1 60523BED
 P 10700 2900
 F 0 "TP19" H 10758 3018 50  0000 L CNN
@@ -3462,7 +3404,7 @@ F 4 "36-5001-ND" H 10700 2900 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP3
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP3
 U 1 1 6053E99D
 P 4550 3800
 F 0 "TP3" H 4608 3918 50  0000 L CNN
@@ -3474,7 +3416,7 @@ F 4 "36-5001-ND" H 4550 3800 50  0001 C CNN "Digikey"
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP5
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP5
 U 1 1 6053FCE2
 P 4850 3800
 F 0 "TP5" H 4908 3918 50  0000 L CNN
@@ -3486,7 +3428,7 @@ F 4 "36-5001-ND" H 4850 3800 50  0001 C CNN "Digikey"
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP6
 U 1 1 605406F9
 P 5150 3800
 F 0 "TP6" H 5208 3918 50  0000 L CNN
@@ -3498,7 +3440,7 @@ F 4 "36-5001-ND" H 5150 3800 50  0001 C CNN "Digikey"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C34
+L DRV8353S_dev_board-rescue:C-Device C34
 U 1 1 604691DE
 P 3950 2050
 F 0 "C34" H 4050 2150 50  0000 L CNN
@@ -3511,7 +3453,7 @@ F 5 "100V" H 4150 1950 50  0000 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0122
+L DRV8353S_dev_board-rescue:GND-power #PWR0122
 U 1 1 60B5FDEE
 P 3950 2300
 F 0 "#PWR0122" H 3950 2050 50  0001 C CNN
@@ -3540,7 +3482,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 3650 5150 3650
 $Comp
-L Device:R_Small R25
+L DRV8353S_dev_board-rescue:R_Small-Device R25
 U 1 1 60441506
 P 4400 3650
 F 0 "R25" V 4450 3800 50  0000 C CNN
@@ -3577,102 +3519,10 @@ Wire Wire Line
 	3750 3450 4300 3450
 Wire Wire Line
 	3750 3250 4300 3250
-Text Label 2950 5800 2    39   ~ 0
-MOT_TEMP_JMP
-Wire Wire Line
-	2950 7000 2300 7000
-Wire Wire Line
-	2950 6900 2300 6900
-Text Label 2950 6900 2    39   ~ 0
-DIRECTION_DIP
-Text Label 2950 7000 2    39   ~ 0
-~SPEED_UP_PB
-Wire Wire Line
-	2300 6100 2950 6100
-Wire Wire Line
-	2300 5900 2950 5900
-Wire Wire Line
-	2300 6200 2950 6200
-Wire Wire Line
-	2300 6300 2950 6300
-Wire Wire Line
-	2300 6400 2950 6400
-Wire Wire Line
-	2300 6500 2950 6500
-Wire Wire Line
-	2300 6600 2950 6600
-Wire Wire Line
-	2300 6700 2950 6700
-Wire Wire Line
-	2300 6800 2950 6800
-Wire Wire Line
-	2300 7100 2950 7100
-Wire Wire Line
-	2300 7200 2950 7200
-Text Label 2950 6600 2    39   ~ 0
-DRV8353_EN_JMP
-Text Label 2950 5900 2    39   ~ 0
-I_PHASE_C_JMP
-Text Label 2950 6100 2    39   ~ 0
-I_PHASE_A_JMP
-Text Label 2950 6700 2    39   ~ 0
-EXT_UART_TX
-Text Label 2950 6800 2    39   ~ 0
-EXT_UART_RX
-Text Label 2950 6200 2    39   ~ 0
-~DRV8353_CS_JMP
-Text Label 2950 6500 2    39   ~ 0
-MOSI_JMP
-Text Label 2950 6400 2    39   ~ 0
-MISO_JMP
-Text Label 2950 6300 2    39   ~ 0
-SCLK_JMP
-Wire Wire Line
-	700  7300 1300 7300
-Wire Wire Line
-	700  7200 1300 7200
-Wire Wire Line
-	700  6900 1300 6900
-Wire Wire Line
-	700  7000 1300 7000
-Wire Wire Line
-	700  7100 1300 7100
-Text Label 700  6900 0    39   ~ 0
-~LED_DIR
-Text Label 700  7000 0    39   ~ 0
-~LED_SPEED
-Text Label 700  7100 0    39   ~ 0
-~SYS_FAULT
-Text Label 700  7300 0    39   ~ 0
-~BRAKE_PB
-Text Label 700  7200 0    39   ~ 0
-~SPEED_DOWN_PB
-Wire Wire Line
-	1300 6800 700  6800
-Wire Wire Line
-	700  6700 1300 6700
-Wire Wire Line
-	700  6600 1300 6600
-Wire Wire Line
-	700  6500 1300 6500
-Text Label 700  6700 0    39   ~ 0
-~BRAKE_JMP
-Text Label 700  6600 0    39   ~ 0
-DIRECTION_JMP
-Text Label 700  6500 0    39   ~ 0
-SPEED_PWM_JMP
-Text Label 700  6800 0    39   ~ 0
-~DRV8353_FAULT_JMP
-Wire Wire Line
-	2300 5800 2950 5800
-Text Label 2950 6000 2    39   ~ 0
-I_PHASE_B_JMP
-Wire Wire Line
-	2300 6000 2950 6000
 Text Label 6750 4550 2    39   ~ 0
 MOT_TEMP
 $Comp
-L Device:R_Small R56
+L DRV8353S_dev_board-rescue:R_Small-Device R56
 U 1 1 6071FAF6
 P 5950 4550
 F 0 "R56" V 6000 4750 50  0000 C CNN
@@ -3684,23 +3534,23 @@ F 4 "CR0603-JW-331ELFCT-ND" V 5950 4550 50  0001 C CNN "Digikey"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6750 4550 6050 4550
+	6750 4550 6350 4550
 Text Label 3700 4550 0    39   ~ 0
 MOT_TEMP_JMP
 $Comp
-L Connector:TestPoint TP20
+L DRV8353S_dev_board-rescue:TestPoint-Connector TP20
 U 1 1 608C7A2F
-P 5450 4450
-F 0 "TP20" H 5508 4568 50  0000 L CNN
-F 1 "THT" H 5508 4477 50  0000 L CNN
-F 2 "DRV8353S_dev_board:keystone_5001" H 5650 4450 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5650 4450 50  0001 C CNN
-F 4 "36-5001-ND" H 5450 4450 50  0001 C CNN "Digikey"
-	1    5450 4450
+P 6350 4450
+F 0 "TP20" H 6408 4568 50  0000 L CNN
+F 1 "THT" H 6408 4477 50  0000 L CNN
+F 2 "DRV8353S_dev_board:keystone_5001" H 6550 4450 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 6550 4450 50  0001 C CNN
+F 4 "36-5001-ND" H 6350 4450 50  0001 C CNN "Digikey"
+	1    6350 4450
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C35
+L DRV8353S_dev_board-rescue:C_Small-Device C35
 U 1 1 608C81E6
 P 5450 5000
 F 0 "C35" H 5542 5046 50  0000 L CNN
@@ -3714,9 +3564,9 @@ $EndComp
 Wire Wire Line
 	5450 4900 5450 4550
 Wire Wire Line
-	5450 4550 5450 4450
+	6350 4550 6350 4450
 $Comp
-L power:GND #PWR0177
+L DRV8353S_dev_board-rescue:GND-power #PWR0177
 U 1 1 60922844
 P 5450 5100
 F 0 "#PWR0177" H 5450 4850 50  0001 C CNN
@@ -3744,4 +3594,124 @@ Wire Wire Line
 	5050 4650 5850 4650
 Wire Wire Line
 	5450 4550 5850 4550
+Wire Wire Line
+	7400 2800 7650 2800
+Wire Wire Line
+	2300 5900 2950 5900
+Text Label 2950 5900 2    39   ~ 0
+I_PHASE_B_JMP
+Wire Wire Line
+	2300 6100 2950 6100
+Text Label 2950 6300 2    39   ~ 0
+SCLK_JMP
+Text Label 2950 6400 2    39   ~ 0
+MISO_JMP
+Text Label 2950 6500 2    39   ~ 0
+MOSI_JMP
+Text Label 2950 6200 2    39   ~ 0
+~DRV8353_CS_JMP
+Text Label 2950 6800 2    39   ~ 0
+EXT_UART_RX
+Text Label 2950 6700 2    39   ~ 0
+EXT_UART_TX
+Text Label 2950 6000 2    39   ~ 0
+I_PHASE_A_JMP
+Text Label 2950 5800 2    39   ~ 0
+I_PHASE_C_JMP
+Text Label 650  6600 0    39   ~ 0
+DRV8353_EN_JMP
+Wire Wire Line
+	2300 7200 2950 7200
+Wire Wire Line
+	2300 7100 2950 7100
+Wire Wire Line
+	2300 6800 2950 6800
+Wire Wire Line
+	2300 6700 2950 6700
+Wire Wire Line
+	1300 6600 650  6600
+Wire Wire Line
+	2300 6500 2950 6500
+Wire Wire Line
+	2300 6400 2950 6400
+Wire Wire Line
+	2300 6300 2950 6300
+Wire Wire Line
+	2300 6200 2950 6200
+Wire Wire Line
+	2300 5800 2950 5800
+Wire Wire Line
+	2300 6000 2950 6000
+Text Label 650  7000 0    39   ~ 0
+~SPEED_UP_PB
+Wire Wire Line
+	650  7000 1300 7000
+Text Label 2950 6100 2    39   ~ 0
+MOT_TEMP_JMP
+Text Label 650  6500 0    39   ~ 0
+~DRV8353_FAULT_JMP
+Text Label 650  7300 0    39   ~ 0
+SPEED_PWM_JMP
+Text Label 650  6700 0    39   ~ 0
+DIRECTION_JMP
+Text Label 2950 6600 2    39   ~ 0
+~BRAKE_JMP
+Wire Wire Line
+	650  7300 1300 7300
+Wire Wire Line
+	650  6700 1300 6700
+Wire Wire Line
+	2950 6600 2300 6600
+Wire Wire Line
+	1300 6500 650  6500
+Text Label 650  6900 0    39   ~ 0
+~SPEED_DOWN_PB
+Text Label 650  6800 0    39   ~ 0
+~BRAKE_PB
+Text Label 2950 6900 2    39   ~ 0
+~SYS_FAULT
+Text Label 2950 7000 2    39   ~ 0
+~LED_SPEED
+Text Label 2950 7300 2    39   ~ 0
+~LED_DIR
+Wire Wire Line
+	2950 6900 2300 6900
+Wire Wire Line
+	2950 7000 2300 7000
+Wire Wire Line
+	2950 7300 2300 7300
+Wire Wire Line
+	650  6900 1300 6900
+Wire Wire Line
+	650  6800 1300 6800
+$Comp
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
+U 1 1 605681A5
+P 7400 2500
+AR Path="/60313041/605681A5" Ref="#PWR?"  Part="1" 
+AR Path="/605681A5" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 7400 2350 50  0001 C CNN
+F 1 "+3V3" H 7415 2673 50  0000 C CNN
+F 2 "" H 7400 2500 50  0001 C CNN
+F 3 "" H 7400 2500 50  0001 C CNN
+	1    7400 2500
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7400 2800
+Wire Wire Line
+	7200 2800 7400 2800
+Wire Wire Line
+	650  7100 1300 7100
+Text Label 650  7100 0    39   ~ 0
+DIRECTION_DIP
+NoConn ~ 1300 7200
+Connection ~ 6350 4550
+Wire Wire Line
+	6350 4550 6050 4550
+NoConn ~ 4700 2050
+Wire Wire Line
+	8600 3450 8700 3450
+Connection ~ 8600 3450
+Wire Wire Line
+	8600 3450 8600 3350
 $EndSCHEMATC
