@@ -1694,9 +1694,9 @@ $EndComp
 Wire Wire Line
 	7400 2800 7400 2700
 Wire Wire Line
-	4650 3750 4650 3600
+	5150 3750 5150 3600
 Wire Wire Line
-	4150 3750 4150 3400
+	4950 3750 4950 3400
 $Comp
 L DRV8353S_dev_board-rescue:TestPoint-Connector TP1
 U 1 1 60462206
@@ -3235,37 +3235,37 @@ $EndComp
 $Comp
 L DRV8353S_dev_board-rescue:TestPoint-Connector TP3
 U 1 1 6053E99D
-P 4150 3750
-F 0 "TP3" H 4050 3950 50  0000 L CNN
-F 1 "THT" H 4050 4050 50  0000 L CNN
-F 2 "DRV8353S_dev_board:keystone_5001" H 4350 3750 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 4350 3750 50  0001 C CNN
-F 4 "36-5001-ND" H 4150 3750 50  0001 C CNN "Digikey"
-	1    4150 3750
+P 4950 3750
+F 0 "TP3" H 4850 3950 50  0000 L CNN
+F 1 "THT" H 4850 4050 50  0000 L CNN
+F 2 "DRV8353S_dev_board:keystone_5001" H 5150 3750 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5150 3750 50  0001 C CNN
+F 4 "36-5001-ND" H 4950 3750 50  0001 C CNN "Digikey"
+	1    4950 3750
 	1    0    0    1   
 $EndComp
 $Comp
 L DRV8353S_dev_board-rescue:TestPoint-Connector TP5
 U 1 1 6053FCE2
-P 4400 3750
-F 0 "TP5" H 4300 3950 50  0000 L CNN
-F 1 "THT" H 4300 4050 50  0000 L CNN
-F 2 "DRV8353S_dev_board:keystone_5001" H 4600 3750 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 4600 3750 50  0001 C CNN
-F 4 "36-5001-ND" H 4400 3750 50  0001 C CNN "Digikey"
-	1    4400 3750
+P 5050 3750
+F 0 "TP5" H 4950 3950 50  0000 L CNN
+F 1 "THT" H 4950 4050 50  0000 L CNN
+F 2 "DRV8353S_dev_board:keystone_5001" H 5250 3750 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5250 3750 50  0001 C CNN
+F 4 "36-5001-ND" H 5050 3750 50  0001 C CNN "Digikey"
+	1    5050 3750
 	1    0    0    1   
 $EndComp
 $Comp
 L DRV8353S_dev_board-rescue:TestPoint-Connector TP6
 U 1 1 605406F9
-P 4650 3750
-F 0 "TP6" H 4600 3950 50  0000 L CNN
-F 1 "THT" H 4600 4050 50  0000 L CNN
-F 2 "DRV8353S_dev_board:keystone_5001" H 4850 3750 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 4850 3750 50  0001 C CNN
-F 4 "36-5001-ND" H 4650 3750 50  0001 C CNN "Digikey"
-	1    4650 3750
+P 5150 3750
+F 0 "TP6" H 5100 3950 50  0000 L CNN
+F 1 "THT" H 5100 4050 50  0000 L CNN
+F 2 "DRV8353S_dev_board:keystone_5001" H 5350 3750 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5350 3750 50  0001 C CNN
+F 4 "36-5001-ND" H 5150 3750 50  0001 C CNN "Digikey"
+	1    5150 3750
 	1    0    0    1   
 $EndComp
 $Comp
@@ -3730,18 +3730,27 @@ Wire Wire Line
 Wire Wire Line
 	3550 3400 4150 3400
 Wire Wire Line
-	4900 3600 5350 3600
+	4900 3600 5150 3600
 Wire Wire Line
-	4900 3500 5350 3500
+	4900 3500 5050 3500
 Wire Wire Line
-	4900 3400 5350 3400
+	4900 3400 4950 3400
 Wire Wire Line
 	3550 3500 4400 3500
 Wire Wire Line
-	4400 3500 4400 3750
+	5050 3500 5050 3750
 Wire Wire Line
 	3550 3600 4650 3600
 Connection ~ 6350 4550
 Wire Wire Line
 	6350 4550 6750 4550
+Connection ~ 4950 3400
+Wire Wire Line
+	4950 3400 5350 3400
+Connection ~ 5050 3500
+Wire Wire Line
+	5050 3500 5350 3500
+Connection ~ 5150 3600
+Wire Wire Line
+	5150 3600 5350 3600
 $EndSCHEMATC
