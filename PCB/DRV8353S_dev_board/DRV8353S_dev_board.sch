@@ -1269,7 +1269,7 @@ $EndComp
 Text Notes 4050 850  0    157  ~ 31
 DRV8353SM Dev. Board
 Text Notes 4200 1300 0    50   Italic 0
-- Voltage: 25V - 50V\n- Max Current: 100A\n- Max Power: 4000W\n- Sensored 120 deg trap. commutation \n- For use with Flipsky 6384 
+- Voltage: 25V - 50V\n- Max Current: 100A\n- Cont. Current: 50A\n- Sensored 120 deg trap. commutation \n- For use with Flipsky 6384 
 Text Notes 5900 1150 0    50   Italic 0
 Evaluation prototype for\nopen source e-mobility\nplatform.
 $Comp
