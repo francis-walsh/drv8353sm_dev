@@ -1014,12 +1014,8 @@ Wire Wire Line
 Wire Wire Line
 	5500 2050 5200 2050
 Wire Wire Line
-	6200 2050 6700 2050
-Wire Wire Line
 	6200 2150 6700 2150
 Text Label 6700 2150 2    39   ~ 0
-EXT_UART_RX
-Text Label 6700 2050 2    39   ~ 0
 EXT_UART_TX
 Text Label 650  5800 0    39   ~ 0
 ~RESET_PB
@@ -3573,134 +3569,128 @@ F 4 "445-5663-1-ND" H 4350 5000 50  0001 C CNN "Digikey"
 	1    4350 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 5200 4450 0    39   Italic 0
+Text Notes 4350 4400 0    39   Italic 0
 - RC corner frequency 21kHz \n- No zener needed since supplied\nby 3v3 supply
 $Comp
 L DRV8353S_dev_board-rescue:R_Small-Device R56
 U 1 1 6071FAF6
-P 5950 4550
-F 0 "R56" V 6000 4750 50  0000 C CNN
-F 1 "330" V 6000 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 4550 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5950 4550 50  0001 C CNN
-F 4 "CR0603-JW-331ELFCT-ND" V 5950 4550 50  0001 C CNN "Digikey"
-	1    5950 4550
+P 5650 4550
+F 0 "R56" V 5700 4750 50  0000 C CNN
+F 1 "330" V 5700 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5650 4550 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5650 4550 50  0001 C CNN
+F 4 "CR0603-JW-331ELFCT-ND" V 5650 4550 50  0001 C CNN "Digikey"
+	1    5650 4550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L DRV8353S_dev_board-rescue:R_Small-Device R29
 U 1 1 6043F748
-P 5950 4650
-F 0 "R29" V 6000 4850 50  0000 C CNN
-F 1 "330" V 6000 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 4650 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5950 4650 50  0001 C CNN
-F 4 "CR0603-JW-331ELFCT-ND" V 5950 4650 50  0001 C CNN "Digikey"
-	1    5950 4650
+P 5650 4650
+F 0 "R29" V 5700 4850 50  0000 C CNN
+F 1 "330" V 5700 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5650 4650 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5650 4650 50  0001 C CNN
+F 4 "CR0603-JW-331ELFCT-ND" V 5650 4650 50  0001 C CNN "Digikey"
+	1    5650 4650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6350 4550 6350 4450
+	6400 4550 6400 4450
 $Comp
 L DRV8353S_dev_board-rescue:TestPoint-Connector TP20
 U 1 1 608C7A2F
-P 6350 4450
-F 0 "TP20" H 6300 4750 50  0000 L CNN
-F 1 "THT" H 6300 4650 50  0000 L CNN
-F 2 "DRV8353S_dev_board:keystone_5001" H 6550 4450 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 6550 4450 50  0001 C CNN
-F 4 "36-5001-ND" H 6350 4450 50  0001 C CNN "Digikey"
-	1    6350 4450
+P 6400 4450
+F 0 "TP20" H 6350 4750 50  0000 L CNN
+F 1 "THT" H 6350 4650 50  0000 L CNN
+F 2 "DRV8353S_dev_board:keystone_5001" H 6600 4450 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 6600 4450 50  0001 C CNN
+F 4 "36-5001-ND" H 6400 4450 50  0001 C CNN "Digikey"
+	1    6400 4450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L DRV8353S_dev_board-rescue:TestPoint-Connector TP11
 U 1 1 604F9F69
-P 5050 4450
-F 0 "TP11" H 5000 4750 50  0000 L CNN
-F 1 "THT" H 5000 4650 50  0000 L CNN
-F 2 "DRV8353S_dev_board:keystone_5001" H 5250 4450 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 5250 4450 50  0001 C CNN
-F 4 "36-5001-ND" H 5050 4450 50  0001 C CNN "Digikey"
-	1    5050 4450
+P 6250 4450
+F 0 "TP11" H 6200 4750 50  0000 L CNN
+F 1 "THT" H 6200 4650 50  0000 L CNN
+F 2 "DRV8353S_dev_board:keystone_5001" H 6450 4450 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 6450 4450 50  0001 C CNN
+F 4 "36-5001-ND" H 6250 4450 50  0001 C CNN "Digikey"
+	1    6250 4450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L DRV8353S_dev_board-rescue:TestPoint-Connector TP7
 U 1 1 604F9342
-P 4700 4450
-F 0 "TP7" H 4650 4750 50  0000 L CNN
-F 1 "THT" H 4650 4650 50  0000 L CNN
-F 2 "DRV8353S_dev_board:keystone_5001" H 4900 4450 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 4900 4450 50  0001 C CNN
-F 4 "36-5001-ND" H 4700 4450 50  0001 C CNN "Digikey"
-	1    4700 4450
+P 6100 4450
+F 0 "TP7" H 6050 4750 50  0000 L CNN
+F 1 "THT" H 6050 4650 50  0000 L CNN
+F 2 "DRV8353S_dev_board:keystone_5001" H 6300 4450 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 6300 4450 50  0001 C CNN
+F 4 "36-5001-ND" H 6100 4450 50  0001 C CNN "Digikey"
+	1    6100 4450
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5050 4650 5050 4450
+	6250 4650 6250 4450
 Wire Wire Line
-	4700 4750 4700 4450
+	6100 4750 6100 4450
 $Comp
 L DRV8353S_dev_board-rescue:TestPoint-Connector TP4
 U 1 1 605697AB
-P 4350 4450
-F 0 "TP4" H 4300 4750 50  0000 L CNN
-F 1 "THT" H 4300 4650 50  0000 L CNN
-F 2 "DRV8353S_dev_board:keystone_5001" H 4550 4450 50  0001 C CNN
-F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 4550 4450 50  0001 C CNN
-F 4 "36-5001-ND" H 4350 4450 50  0001 C CNN "Digikey"
-	1    4350 4450
+P 5950 4450
+F 0 "TP4" H 5900 4750 50  0000 L CNN
+F 1 "THT" H 5900 4650 50  0000 L CNN
+F 2 "DRV8353S_dev_board:keystone_5001" H 6150 4450 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 6150 4450 50  0001 C CNN
+F 4 "36-5001-ND" H 5950 4450 50  0001 C CNN "Digikey"
+	1    5950 4450
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 4850 4350 4450
+	5950 4850 5950 4450
 Wire Wire Line
 	3700 4850 4350 4850
 $Comp
 L DRV8353S_dev_board-rescue:R_Small-Device R31
 U 1 1 6051BAC6
-P 5950 4850
-F 0 "R31" V 6000 5050 50  0000 C CNN
-F 1 "330" V 6000 4650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 4850 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5950 4850 50  0001 C CNN
-F 4 "CR0603-JW-331ELFCT-ND" V 5950 4850 50  0001 C CNN "Digikey"
-	1    5950 4850
+P 5650 4850
+F 0 "R31" V 5700 5050 50  0000 C CNN
+F 1 "330" V 5700 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5650 4850 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5650 4850 50  0001 C CNN
+F 4 "CR0603-JW-331ELFCT-ND" V 5650 4850 50  0001 C CNN "Digikey"
+	1    5650 4850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L DRV8353S_dev_board-rescue:R_Small-Device R30
 U 1 1 6051B911
-P 5950 4750
-F 0 "R30" V 6000 4950 50  0000 C CNN
-F 1 "330" V 6000 4550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 4750 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5950 4750 50  0001 C CNN
-F 4 "CR0603-JW-331ELFCT-ND" V 5950 4750 50  0001 C CNN "Digikey"
-	1    5950 4750
+P 5650 4750
+F 0 "R30" V 5700 4950 50  0000 C CNN
+F 1 "330" V 5700 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5650 4750 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/CRxxxxx.pdf" H 5650 4750 50  0001 C CNN
+F 4 "CR0603-JW-331ELFCT-ND" V 5650 4750 50  0001 C CNN "Digikey"
+	1    5650 4750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6050 4550 6350 4550
-Wire Wire Line
-	6050 4650 6750 4650
-Wire Wire Line
-	6050 4750 6750 4750
-Wire Wire Line
-	6050 4850 6750 4850
+	5750 4750 6100 4750
 Connection ~ 4350 4850
 Wire Wire Line
-	4350 4850 5850 4850
+	4350 4850 5550 4850
 Connection ~ 4700 4750
 Wire Wire Line
-	4700 4750 5850 4750
+	4700 4750 5550 4750
 Connection ~ 5050 4650
 Wire Wire Line
-	5050 4650 5850 4650
+	5050 4650 5550 4650
 Connection ~ 5450 4550
 Wire Wire Line
-	5450 4550 5850 4550
+	5450 4550 5550 4550
 Wire Wire Line
 	3700 4750 4700 4750
 Wire Wire Line
@@ -3741,9 +3731,6 @@ Wire Wire Line
 	5050 3500 5050 3750
 Wire Wire Line
 	3550 3600 4650 3600
-Connection ~ 6350 4550
-Wire Wire Line
-	6350 4550 6750 4550
 Connection ~ 4950 3400
 Wire Wire Line
 	4950 3400 5350 3400
@@ -3753,4 +3740,26 @@ Wire Wire Line
 Connection ~ 5150 3600
 Wire Wire Line
 	5150 3600 5350 3600
+Wire Wire Line
+	5750 4850 5950 4850
+Connection ~ 5950 4850
+Connection ~ 6100 4750
+Wire Wire Line
+	6100 4750 6750 4750
+Wire Wire Line
+	5950 4850 6750 4850
+Connection ~ 6400 4550
+Wire Wire Line
+	6400 4550 6750 4550
+Wire Wire Line
+	5750 4550 6400 4550
+Connection ~ 6250 4650
+Wire Wire Line
+	6250 4650 6750 4650
+Wire Wire Line
+	5750 4650 6250 4650
+Text Label 6700 2050 2    39   ~ 0
+EXT_UART_RX
+Wire Wire Line
+	6200 2050 6700 2050
 $EndSCHEMATC

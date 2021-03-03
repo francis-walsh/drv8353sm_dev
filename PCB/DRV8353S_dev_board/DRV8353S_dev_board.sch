@@ -1014,12 +1014,8 @@ Wire Wire Line
 Wire Wire Line
 	5500 2050 5200 2050
 Wire Wire Line
-	6200 2050 6700 2050
-Wire Wire Line
 	6200 2150 6700 2150
 Text Label 6700 2150 2    39   ~ 0
-EXT_UART_RX
-Text Label 6700 2050 2    39   ~ 0
 EXT_UART_TX
 Text Label 650  5800 0    39   ~ 0
 ~RESET_PB
@@ -3419,19 +3415,16 @@ Wire Wire Line
 $Comp
 L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 605681A5
-P 7400 2500
+P 7400 2700
 AR Path="/60313041/605681A5" Ref="#PWR?"  Part="1" 
 AR Path="/605681A5" Ref="#PWR0149"  Part="1" 
-F 0 "#PWR0149" H 7400 2350 50  0001 C CNN
-F 1 "+3V3" H 7415 2673 50  0000 C CNN
-F 2 "" H 7400 2500 50  0001 C CNN
-F 3 "" H 7400 2500 50  0001 C CNN
-	1    7400 2500
+F 0 "#PWR0149" H 7400 2550 50  0001 C CNN
+F 1 "+3V3" H 7415 2873 50  0000 C CNN
+F 2 "" H 7400 2700 50  0001 C CNN
+F 3 "" H 7400 2700 50  0001 C CNN
+	1    7400 2700
 	-1   0    0    -1  
 $EndComp
-Connection ~ 7400 2800
-Wire Wire Line
-	7200 2800 7400 2800
 Wire Wire Line
 	650  7100 1300 7100
 Text Label 650  7100 0    39   ~ 0
@@ -3762,4 +3755,8 @@ Wire Wire Line
 	6250 4650 6750 4650
 Wire Wire Line
 	5750 4650 6250 4650
+Text Label 6700 2050 2    39   ~ 0
+EXT_UART_RX
+Wire Wire Line
+	6200 2050 6700 2050
 $EndSCHEMATC
