@@ -14,36 +14,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DRV8353S_dev_board-rescue:STM32F042K4Ux-MCU_ST_STM32F0 U2
-U 1 1 603E9824
-P 1800 6500
-F 0 "U2" H 2050 5550 50  0000 C CNN
-F 1 "STM32F042K4Ux" H 2200 5450 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 1400 5600 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf" H 1800 6500 50  0001 C CNN
-	1    1800 6500
-	1    0    0    -1  
-$EndComp
-$Comp
 L DRV8353S_dev_board-rescue:GND-power #PWR0101
 U 1 1 603E982A
-P 1800 7500
-F 0 "#PWR0101" H 1800 7250 50  0001 C CNN
-F 1 "GND" H 1805 7327 50  0000 C CNN
-F 2 "" H 1800 7500 50  0001 C CNN
-F 3 "" H 1800 7500 50  0001 C CNN
-	1    1800 7500
+P 1900 7550
+F 0 "#PWR0101" H 1900 7300 50  0001 C CNN
+F 1 "GND" H 1905 7377 50  0000 C CNN
+F 2 "" H 1900 7550 50  0001 C CNN
+F 3 "" H 1900 7550 50  0001 C CNN
+	1    1900 7550
 	1    0    0    -1  
 $EndComp
 $Comp
 L DRV8353S_dev_board-rescue:+3V3-power #PWR0102
 U 1 1 603E9830
-P 1800 5500
-F 0 "#PWR0102" H 1800 5350 50  0001 C CNN
-F 1 "+3V3" H 1815 5673 50  0000 C CNN
-F 2 "" H 1800 5500 50  0001 C CNN
-F 3 "" H 1800 5500 50  0001 C CNN
-	1    1800 5500
+P 1850 5500
+F 0 "#PWR0102" H 1850 5350 50  0001 C CNN
+F 1 "+3V3" H 1865 5673 50  0000 C CNN
+F 2 "" H 1850 5500 50  0001 C CNN
+F 3 "" H 1850 5500 50  0001 C CNN
+	1    1850 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -56,53 +45,51 @@ Wire Wire Line
 	1800 5600 1800 5550
 Connection ~ 1800 5550
 Wire Wire Line
-	1800 5550 1900 5550
-Wire Wire Line
-	1800 5550 1800 5500
+	1800 5550 1850 5550
 $Comp
 L DRV8353S_dev_board-rescue:C_Small-Device C14
 U 1 1 603E9849
-P 3350 7400
-F 0 "C14" H 3258 7354 50  0000 R CNN
-F 1 "1uF" H 3258 7445 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3350 7400 50  0001 C CNN
-F 3 "~" H 3350 7400 50  0001 C CNN
-F 4 "6.3V" H 3200 7550 50  0000 C CNN "Voltage"
-F 5 "478-12143-1-ND" H 3350 7400 50  0001 C CNN "Digikey"
-	1    3350 7400
+P 3200 7400
+F 0 "C14" H 3108 7354 50  0000 R CNN
+F 1 "1uF" H 3108 7445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 7400 50  0001 C CNN
+F 3 "~" H 3200 7400 50  0001 C CNN
+F 4 "6.3V" H 3050 7550 50  0000 C CNN "Voltage"
+F 5 "478-12143-1-ND" H 3200 7400 50  0001 C CNN "Digikey"
+	1    3200 7400
 	1    0    0    1   
 $EndComp
 $Comp
 L DRV8353S_dev_board-rescue:GND-power #PWR0103
 U 1 1 603E984F
-P 3350 7500
-F 0 "#PWR0103" H 3350 7250 50  0001 C CNN
-F 1 "GND" H 3355 7327 50  0000 C CNN
-F 2 "" H 3350 7500 50  0001 C CNN
-F 3 "" H 3350 7500 50  0001 C CNN
-	1    3350 7500
+P 3200 7500
+F 0 "#PWR0103" H 3200 7250 50  0001 C CNN
+F 1 "GND" H 3205 7327 50  0000 C CNN
+F 2 "" H 3200 7500 50  0001 C CNN
+F 3 "" H 3200 7500 50  0001 C CNN
+	1    3200 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L DRV8353S_dev_board-rescue:GND-power #PWR0104
 U 1 1 603E9855
-P 3650 7500
-F 0 "#PWR0104" H 3650 7250 50  0001 C CNN
-F 1 "GND" H 3655 7327 50  0000 C CNN
-F 2 "" H 3650 7500 50  0001 C CNN
-F 3 "" H 3650 7500 50  0001 C CNN
-	1    3650 7500
+P 3500 7500
+F 0 "#PWR0104" H 3500 7250 50  0001 C CNN
+F 1 "GND" H 3505 7327 50  0000 C CNN
+F 2 "" H 3500 7500 50  0001 C CNN
+F 3 "" H 3500 7500 50  0001 C CNN
+	1    3500 7500
 	1    0    0    -1  
 $EndComp
 $Comp
 L DRV8353S_dev_board-rescue:GND-power #PWR0105
 U 1 1 603E985B
-P 3950 7500
-F 0 "#PWR0105" H 3950 7250 50  0001 C CNN
-F 1 "GND" H 3955 7327 50  0000 C CNN
-F 2 "" H 3950 7500 50  0001 C CNN
-F 3 "" H 3950 7500 50  0001 C CNN
-	1    3950 7500
+P 3800 7500
+F 0 "#PWR0105" H 3800 7250 50  0001 C CNN
+F 1 "GND" H 3805 7327 50  0000 C CNN
+F 2 "" H 3800 7500 50  0001 C CNN
+F 3 "" H 3800 7500 50  0001 C CNN
+	1    3800 7500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -157,16 +144,16 @@ F 3 "" H 2900 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 7300 3350 7250
+	3200 7300 3200 7250
 Wire Wire Line
-	3350 7250 3650 7250
+	3200 7250 3500 7250
 Wire Wire Line
-	3950 7250 3950 7300
+	3800 7250 3800 7300
 Wire Wire Line
-	3650 7300 3650 7250
-Connection ~ 3650 7250
+	3500 7300 3500 7250
+Connection ~ 3500 7250
 Wire Wire Line
-	3650 7250 3950 7250
+	3500 7250 3650 7250
 Wire Wire Line
 	3650 7250 3650 7150
 $Comp
@@ -386,7 +373,7 @@ F 0 "R38" H 7970 5396 50  0000 L CNN
 F 1 "500u" H 7970 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 7830 5350 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/30193/wslf.pdf" H 7900 5350 50  0001 C CNN
-F 4 "541-3124-1-ND" H 7900 5350 50  0001 C CNN "Digikey"
+F 4 "YAG5784CT-ND‎" H 7900 5350 50  0001 C CNN "Digikey"
 F 5 "5W" H 8050 5200 50  0000 C CNN "Power"
 	1    7900 5350
 	1    0    0    -1  
@@ -800,14 +787,14 @@ DIRECTION_DIP
 $Comp
 L DRV8353S_dev_board-rescue:Logo_Open_Hardware_Small-Graphic #LOGO1
 U 1 1 6094F1D9
-P 12250 650
-F 0 "#LOGO1" H 12250 925 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 12250 425 50  0001 C CNN
-F 2 "" H 12250 650 50  0001 C CNN
-F 3 "http://suddendocs.samtec.com/prints/sfsdx-xx-xxx-xx-xx.xx-xx-xxx-mkt.pdf" H 12250 650 50  0001 C CNN
-F 4 "SAM8668-ND" H 12250 1036 50  0000 C CNN "Digikey"
-F 5 "SWD Cable Assembly" H 12250 945 50  0000 C CNN "Note"
-	1    12250 650 
+P 12250 700
+F 0 "#LOGO1" H 12650 700 50  0000 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12250 475 50  0001 C CNN
+F 2 "" H 12250 700 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/prints/sfsdx-xx-xxx-xx-xx.xx-xx-xxx-mkt.pdf" H 12250 700 50  0001 C CNN
+F 4 "SAM8668-ND" H 12250 1086 50  0000 C CNN "Digikey"
+F 5 "SWD Cable Assembly" H 12250 995 50  0000 C CNN "Note"
+	1    12250 700 
 	1    0    0    -1  
 $EndComp
 Connection ~ 800  3550
@@ -833,93 +820,6 @@ Wire Wire Line
 Wire Wire Line
 	800  2900 800  3100
 Connection ~ 800  3100
-Text Label 2250 5150 0    39   ~ 0
-~SYS_FAULT
-$Comp
-L DRV8353S_dev_board-rescue:R_Small-Device R6
-U 1 1 62708B7C
-P 2650 4650
-F 0 "R6" H 2600 4500 50  0000 R CNN
-F 1 "1k" H 2600 4600 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2650 4650 50  0001 C CNN
-F 3 "~" H 2650 4650 50  0001 C CNN
-F 4 "0.25W" H 2500 4700 50  0000 C CNN "Power"
-	1    2650 4650
-	1    0    0    1   
-$EndComp
-$Comp
-L DRV8353S_dev_board-rescue:+3V3-power #PWR?
-U 1 1 6278A0E8
-P 2650 4550
-AR Path="/60313041/6278A0E8" Ref="#PWR?"  Part="1" 
-AR Path="/6278A0E8" Ref="#PWR0124"  Part="1" 
-F 0 "#PWR0124" H 2650 4400 50  0001 C CNN
-F 1 "+3V3" H 2665 4723 50  0000 C CNN
-F 2 "" H 2650 4550 50  0001 C CNN
-F 3 "" H 2650 4550 50  0001 C CNN
-	1    2650 4550
-	1    0    0    -1  
-$EndComp
-Text Label 2250 5050 0    39   ~ 0
-~LED_SPEED
-Text Label 2250 4950 0    39   ~ 0
-~LED_DIR
-$Comp
-L DRV8353S_dev_board-rescue:+3V3-power #PWR?
-U 1 1 6278AA5E
-P 3250 4550
-AR Path="/60313041/6278AA5E" Ref="#PWR?"  Part="1" 
-AR Path="/6278AA5E" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 3250 4400 50  0001 C CNN
-F 1 "+3V3" H 3265 4723 50  0000 C CNN
-F 2 "" H 3250 4550 50  0001 C CNN
-F 3 "" H 3250 4550 50  0001 C CNN
-	1    3250 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L DRV8353S_dev_board-rescue:+3V3-power #PWR?
-U 1 1 6278A780
-P 2950 4550
-AR Path="/60313041/6278A780" Ref="#PWR?"  Part="1" 
-AR Path="/6278A780" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 2950 4400 50  0001 C CNN
-F 1 "+3V3" H 2965 4723 50  0000 C CNN
-F 2 "" H 2950 4550 50  0001 C CNN
-F 3 "" H 2950 4550 50  0001 C CNN
-	1    2950 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 4950 2950 5050
-Wire Wire Line
-	2950 5050 2250 5050
-Wire Wire Line
-	2650 4950 2250 4950
-$Comp
-L DRV8353S_dev_board-rescue:LED_Small-Device D3
-U 1 1 6270C2E3
-P 3250 4850
-F 0 "D3" V 3296 4780 50  0000 R CNN
-F 1 "RD" V 3205 4780 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 3250 4850 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150060RS75000.pdf" V 3250 4850 50  0001 C CNN
-F 4 "732-4978-1-ND" V 3250 4850 50  0001 C CNN "Digikey"
-	1    3250 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L DRV8353S_dev_board-rescue:LED_Small-Device D1
-U 1 1 6270AB37
-P 2650 4850
-F 0 "D1" V 2696 4780 50  0000 R CNN
-F 1 "GN" V 2605 4780 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 2650 4850 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150060GS75000.pdf" V 2650 4850 50  0001 C CNN
-F 4 "732-4971-1-ND" V 2650 4850 50  0001 C CNN "Digikey"
-	1    2650 4850
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3550 3700 3650 3700
 Wire Wire Line
@@ -1017,13 +917,13 @@ Wire Wire Line
 	6200 2150 6700 2150
 Text Label 6700 2150 2    39   ~ 0
 EXT_UART_TX
-Text Label 650  5800 0    39   ~ 0
+Text Label -2950 6250 0    39   ~ 0
 ~RESET_PB
 Wire Wire Line
-	650  5800 1300 5800
-Text Label 2950 7200 2    39   ~ 0
+	-2950 6250 -2300 6250
+Text Label -1050 7650 2    39   ~ 0
 SWCLK
-Text Label 2950 7100 2    39   ~ 0
+Text Label -1050 7550 2    39   ~ 0
 SWDIO
 Text Label 3050 3550 2    39   ~ 0
 ~RESET_PB
@@ -1340,7 +1240,7 @@ F 0 "R39" H 9220 5396 50  0000 L CNN
 F 1 "500u" H 9220 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 9080 5350 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/30193/wslf.pdf" H 9150 5350 50  0001 C CNN
-F 4 "541-3124-1-ND" H 9150 5350 50  0001 C CNN "Digikey"
+F 4 "YAG5784CT-ND‎" H 9150 5350 50  0001 C CNN "Digikey"
 F 5 "5W" H 9300 5200 50  0000 C CNN "Power"
 	1    9150 5350
 	1    0    0    -1  
@@ -1355,7 +1255,7 @@ F 0 "R55" H 10470 5396 50  0000 L CNN
 F 1 "500u" H 10470 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric" V 10330 5350 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/30193/wslf.pdf" H 10400 5350 50  0001 C CNN
-F 4 "541-3124-1-ND" H 10400 5350 50  0001 C CNN "Digikey"
+F 4 "YAG5784CT-ND‎" H 10400 5350 50  0001 C CNN "Digikey"
 F 5 "5W" H 10550 5200 50  0000 C CNN "Power"
 	1    10400 5350
 	1    0    0    -1  
@@ -1366,7 +1266,7 @@ $Comp
 L DRV8353S_dev_board-rescue:Logo_Open_Hardware_Small-Graphic #LOGO2
 U 1 1 604CE8FD
 P 12250 1300
-F 0 "#LOGO2" H 12250 1575 50  0001 C CNN
+F 0 "#LOGO2" H 12650 1300 50  0000 C CNN
 F 1 "Logo_Open_Hardware_Small" H 12250 1075 50  0001 C CNN
 F 2 "" H 12250 1300 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Trinamic%20Motion%20Control%20PDFs/TMC_Cables_Manual_V1.00.pdf" H 12250 1300 50  0001 C CNN
@@ -1375,15 +1275,14 @@ F 5 "UART Cable Assembly" H 12250 1595 50  0000 C CNN "Note"
 	1    12250 1300
 	1    0    0    -1  
 $EndComp
-Text Label 650  6100 0    39   ~ 0
+Text Label -2950 6550 0    39   ~ 0
 XTAL_IN
 Wire Wire Line
-	650  6100 1300 6100
-Text Label 650  6200 0    39   ~ 0
+	-2950 6550 -2300 6550
+Text Label -2950 6650 0    39   ~ 0
 XTAL_OUT
 Wire Wire Line
-	650  6200 1300 6200
-NoConn ~ 1300 6300
+	-2950 6650 -2300 6650
 Wire Wire Line
 	4150 3400 4150 3300
 Wire Wire Line
@@ -1608,85 +1507,6 @@ Wire Wire Line
 	4700 2150 4550 2150
 Wire Wire Line
 	4550 2150 4550 2250
-$Comp
-L DRV8353S_dev_board-rescue:C_Small-Device C1
-U 1 1 60593BFA
-P 1100 4800
-F 0 "C1" H 1192 4846 50  0000 L CNN
-F 1 "12pF" H 1192 4755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1100 4800 50  0001 C CNN
-F 3 "~" H 1100 4800 50  0001 C CNN
-F 4 "NP0" H 1300 4650 50  0000 C CNN "Rating"
-F 5 "478-10188-1-ND" H 1100 4800 50  0001 C CNN "Digikey"
-	1    1100 4800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L DRV8353S_dev_board-rescue:C_Small-Device C6
-U 1 1 60594071
-P 1500 4800
-F 0 "C6" H 1592 4846 50  0000 L CNN
-F 1 "12pF" H 1592 4755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1500 4800 50  0001 C CNN
-F 3 "~" H 1500 4800 50  0001 C CNN
-F 4 "NP0" H 1700 4650 50  0000 C CNN "Rating"
-F 5 "478-10188-1-ND" H 1500 4800 50  0001 C CNN "Digikey"
-	1    1500 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1400 4650 1500 4650
-Wire Wire Line
-	1500 4650 1500 4700
-Wire Wire Line
-	1200 4650 1100 4650
-Wire Wire Line
-	1100 4650 1100 4700
-$Comp
-L DRV8353S_dev_board-rescue:GND-power #PWR0146
-U 1 1 605E246C
-P 1100 4900
-F 0 "#PWR0146" H 1100 4650 50  0001 C CNN
-F 1 "GND" H 1105 4727 50  0000 C CNN
-F 2 "" H 1100 4900 50  0001 C CNN
-F 3 "" H 1100 4900 50  0001 C CNN
-	1    1100 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L DRV8353S_dev_board-rescue:GND-power #PWR0147
-U 1 1 605E26ED
-P 1500 4900
-F 0 "#PWR0147" H 1500 4650 50  0001 C CNN
-F 1 "GND" H 1505 4727 50  0000 C CNN
-F 2 "" H 1500 4900 50  0001 C CNN
-F 3 "" H 1500 4900 50  0001 C CNN
-	1    1500 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 4650 1800 4650
-Connection ~ 1500 4650
-Wire Wire Line
-	1100 4650 800  4650
-Connection ~ 1100 4650
-Text Label 1800 4650 2    39   ~ 0
-XTAL_OUT
-Text Label 800  4650 0    39   ~ 0
-XTAL_IN
-$Comp
-L MOTOR_BOARD:ECS-33B U1
-U 1 1 607085C1
-P 1300 4650
-F 0 "U1" H 1300 4850 50  0000 C CNN
-F 1 "ECS-33B" H 1300 4750 50  0000 C CNN
-F 2 "DRV8353S_dev_board:ECS-33B" H 1300 4650 50  0001 C CNN
-F 3 "https://ecsxtal.com/store/pdf/ECS-33B.pdf" H 1300 4650 50  0001 C CNN
-F 4 "32MHz" H 1300 4550 50  0000 C CNN "Freq"
-F 5 "50-ECS-320-12-33B-7KM-CT-ND" H 1300 4650 50  0001 C CNN "Digikey"
-	1    1300 4650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7400 2800 7400 2700
 Wire Wire Line
@@ -2147,7 +1967,7 @@ F 0 "J5" H 10650 6150 50  0000 C CNN
 F 1 "PHASE" H 10650 6050 50  0000 C CNN
 F 2 "DRV8353S_dev_board:MOLEX_0428203213" H 10450 6050 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/428203213_sd.pdf" H 10450 6050 50  0001 C CNN
-F 4 "WM11180-ND" H 10450 6050 50  0001 C CNN "Mouser"
+F 4 "WM11180-ND" H 10450 6050 50  0001 C CNN "Digikey"
 	1    10450 6050
 	1    0    0    1   
 $EndComp
@@ -2167,11 +1987,11 @@ $Comp
 L DRV8353S_dev_board-rescue:Logo_Open_Hardware_Small-Graphic #LOGO3
 U 1 1 60C49AFA
 P 12250 2000
-F 0 "#LOGO3" H 12250 2275 50  0001 C CNN
+F 0 "#LOGO3" H 12700 2000 50  0000 C CNN
 F 1 "Logo_Open_Hardware_Small" H 12250 1775 50  0001 C CNN
 F 2 "" H 12250 2000 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/2018460030_sd.pdf" H 12250 2000 50  0001 C CNN
-F 4 "538-201846-0030" H 12250 2386 50  0000 C CNN "Mouser"
+F 4 "WM9166CT-ND" H 12250 2386 50  0000 C CNN "Digikey"
 F 5 "Phase Connector Terminals" H 12250 2295 50  0000 C CNN "Note"
 	1    12250 2000
 	1    0    0    -1  
@@ -2180,11 +2000,11 @@ $Comp
 L DRV8353S_dev_board-rescue:Logo_Open_Hardware_Small-Graphic #LOGO4
 U 1 1 60C4B1FE
 P 12250 2650
-F 0 "#LOGO4" H 12250 2925 50  0001 C CNN
+F 0 "#LOGO4" H 12700 2700 50  0000 C CNN
 F 1 "Logo_Open_Hardware_Small" H 12250 2425 50  0001 C CNN
 F 2 "" H 12250 2650 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/2018410031_sd.pdf" H 12250 2650 50  0001 C CNN
-F 4 "201841-0031" H 12250 3036 50  0000 C CNN "Mouser"
+F 4 "WM1928-ND" H 12250 3036 50  0000 C CNN "Digikey"
 F 5 "Phase Connector Housing" H 12250 2945 50  0000 C CNN "Note"
 	1    12250 2650
 	1    0    0    -1  
@@ -2282,7 +2102,7 @@ $Comp
 L DRV8353S_dev_board-rescue:Logo_Open_Hardware_Small-Graphic #LOGO5
 U 1 1 6043CB0A
 P 12250 3300
-F 0 "#LOGO5" H 12250 3575 50  0001 C CNN
+F 0 "#LOGO5" H 12700 3300 50  0000 C CNN
 F 1 "Logo_Open_Hardware_Small" H 12250 3075 50  0001 C CNN
 F 2 "" H 12250 3300 50  0001 C CNN
 F 3 "" H 12250 3300 50  0001 C CNN
@@ -2556,18 +2376,6 @@ F 4 "RMCF0603ZT0R00CT-ND" V 5000 2950 50  0001 C CNN "Digikey"
 	1    0    0    -1  
 $EndComp
 $Comp
-L DRV8353S_dev_board-rescue:LED_Small-Device D2
-U 1 1 60445C5C
-P 2950 4850
-F 0 "D2" V 2996 4780 50  0000 R CNN
-F 1 "GN" V 2905 4780 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 2950 4850 50  0001 C CNN
-F 3 "https://katalog.we-online.de/led/datasheet/150060GS75000.pdf" V 2950 4850 50  0001 C CNN
-F 4 "732-4971-1-ND" V 2950 4850 50  0001 C CNN "Digikey"
-	1    2950 4850
-	0    -1   -1   0   
-$EndComp
-$Comp
 L DRV8353S_dev_board-rescue:LED_Small-Device D6
 U 1 1 604462E1
 P 6750 3700
@@ -2744,34 +2552,6 @@ F 3 "~" H 6300 7100 50  0001 C CNN
 	1    6300 7100
 	-1   0    0    1   
 $EndComp
-$Comp
-L DRV8353S_dev_board-rescue:R_Small-Device R7
-U 1 1 60526D94
-P 2950 4650
-F 0 "R7" H 2900 4500 50  0000 R CNN
-F 1 "1k" H 2900 4600 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2950 4650 50  0001 C CNN
-F 3 "~" H 2950 4650 50  0001 C CNN
-F 4 "0.25W" H 2800 4700 50  0000 C CNN "Power"
-	1    2950 4650
-	1    0    0    1   
-$EndComp
-$Comp
-L DRV8353S_dev_board-rescue:R_Small-Device R8
-U 1 1 60527131
-P 3250 4650
-F 0 "R8" H 3200 4500 50  0000 R CNN
-F 1 "1k" H 3200 4600 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3250 4650 50  0001 C CNN
-F 3 "~" H 3250 4650 50  0001 C CNN
-F 4 "0.25W" H 3100 4700 50  0000 C CNN "Power"
-	1    3250 4650
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	3250 5150 3250 4950
-Wire Wire Line
-	2250 5150 3250 5150
 $Comp
 L DRV8353S_dev_board-rescue:C-Device C30
 U 1 1 605D3D01
@@ -2953,27 +2733,27 @@ $EndComp
 $Comp
 L DRV8353S_dev_board-rescue:C_Small-Device C15
 U 1 1 60624D59
-P 3650 7400
-F 0 "C15" H 3558 7354 50  0000 R CNN
-F 1 "1uF" H 3558 7445 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3650 7400 50  0001 C CNN
-F 3 "~" H 3650 7400 50  0001 C CNN
-F 4 "6.3V" H 3500 7550 50  0000 C CNN "Voltage"
-F 5 "478-12143-1-ND" H 3650 7400 50  0001 C CNN "Digikey"
-	1    3650 7400
+P 3500 7400
+F 0 "C15" H 3408 7354 50  0000 R CNN
+F 1 "1uF" H 3408 7445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3500 7400 50  0001 C CNN
+F 3 "~" H 3500 7400 50  0001 C CNN
+F 4 "6.3V" H 3350 7550 50  0000 C CNN "Voltage"
+F 5 "478-12143-1-ND" H 3500 7400 50  0001 C CNN "Digikey"
+	1    3500 7400
 	1    0    0    1   
 $EndComp
 $Comp
 L DRV8353S_dev_board-rescue:C_Small-Device C16
 U 1 1 6062561D
-P 3950 7400
-F 0 "C16" H 3858 7354 50  0000 R CNN
-F 1 "1uF" H 3858 7445 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3950 7400 50  0001 C CNN
-F 3 "~" H 3950 7400 50  0001 C CNN
-F 4 "6.3V" H 3800 7550 50  0000 C CNN "Voltage"
-F 5 "478-12143-1-ND" H 3950 7400 50  0001 C CNN "Digikey"
-	1    3950 7400
+P 3800 7400
+F 0 "C16" H 3708 7354 50  0000 R CNN
+F 1 "1uF" H 3708 7445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3800 7400 50  0001 C CNN
+F 3 "~" H 3800 7400 50  0001 C CNN
+F 4 "6.3V" H 3650 7550 50  0000 C CNN "Voltage"
+F 5 "478-12143-1-ND" H 3800 7400 50  0001 C CNN "Digikey"
+	1    3800 7400
 	1    0    0    1   
 $EndComp
 $Comp
@@ -3325,93 +3105,93 @@ MOT_TEMP_JMP
 Wire Wire Line
 	7400 2800 7650 2800
 Wire Wire Line
-	2300 5900 2950 5900
-Text Label 2950 5900 2    39   ~ 0
+	-1700 6350 -1050 6350
+Text Label -1050 6350 2    39   ~ 0
 I_PHASE_B_JMP
 Wire Wire Line
-	2300 6100 2950 6100
-Text Label 2950 6300 2    39   ~ 0
+	-1700 6550 -1050 6550
+Text Label -1050 6750 2    39   ~ 0
 SCLK_JMP
-Text Label 2950 6400 2    39   ~ 0
+Text Label -1050 6850 2    39   ~ 0
 MISO_JMP
-Text Label 2950 6500 2    39   ~ 0
+Text Label -1050 6950 2    39   ~ 0
 MOSI_JMP
-Text Label 2950 6200 2    39   ~ 0
+Text Label -1050 6650 2    39   ~ 0
 ~DRV8353_CS_JMP
-Text Label 2950 6800 2    39   ~ 0
+Text Label -1050 7250 2    39   ~ 0
 EXT_UART_RX
-Text Label 2950 6700 2    39   ~ 0
+Text Label -1050 7150 2    39   ~ 0
 EXT_UART_TX
-Text Label 2950 6000 2    39   ~ 0
+Text Label -1050 6450 2    39   ~ 0
 I_PHASE_A_JMP
-Text Label 2950 5800 2    39   ~ 0
+Text Label -1050 6250 2    39   ~ 0
 I_PHASE_C_JMP
-Text Label 650  6600 0    39   ~ 0
+Text Label -2950 7050 0    39   ~ 0
 DRV8353_EN_JMP
 Wire Wire Line
-	2300 7200 2950 7200
+	-1700 7650 -1050 7650
 Wire Wire Line
-	2300 7100 2950 7100
+	-1700 7550 -1050 7550
 Wire Wire Line
-	2300 6800 2950 6800
+	-1700 7250 -1050 7250
 Wire Wire Line
-	2300 6700 2950 6700
+	-1700 7150 -1050 7150
 Wire Wire Line
-	1300 6600 650  6600
+	-2300 7050 -2950 7050
 Wire Wire Line
-	2300 6500 2950 6500
+	-1700 6950 -1050 6950
 Wire Wire Line
-	2300 6400 2950 6400
+	-1700 6850 -1050 6850
 Wire Wire Line
-	2300 6300 2950 6300
+	-1700 6750 -1050 6750
 Wire Wire Line
-	2300 6200 2950 6200
+	-1700 6650 -1050 6650
 Wire Wire Line
-	2300 5800 2950 5800
+	-1700 6250 -1050 6250
 Wire Wire Line
-	2300 6000 2950 6000
-Text Label 650  7000 0    39   ~ 0
+	-1700 6450 -1050 6450
+Text Label -2950 7450 0    39   ~ 0
 ~SPEED_UP_PB
 Wire Wire Line
-	650  7000 1300 7000
-Text Label 2950 6100 2    39   ~ 0
+	-2950 7450 -2300 7450
+Text Label -1050 6550 2    39   ~ 0
 MOT_TEMP_JMP
-Text Label 650  6500 0    39   ~ 0
+Text Label -2950 6950 0    39   ~ 0
 ~DRV8353_FAULT_JMP
-Text Label 650  7300 0    39   ~ 0
+Text Label -2950 7750 0    39   ~ 0
 SPEED_PWM_JMP
-Text Label 650  6700 0    39   ~ 0
+Text Label -2950 7150 0    39   ~ 0
 DIRECTION_JMP
-Text Label 2950 6600 2    39   ~ 0
+Text Label -1050 7050 2    39   ~ 0
 ~BRAKE_JMP
 Wire Wire Line
-	650  7300 1300 7300
+	-2950 7750 -2300 7750
 Wire Wire Line
-	650  6700 1300 6700
+	-2950 7150 -2300 7150
 Wire Wire Line
-	2950 6600 2300 6600
+	-1050 7050 -1700 7050
 Wire Wire Line
-	1300 6500 650  6500
-Text Label 650  6900 0    39   ~ 0
+	-2300 6950 -2950 6950
+Text Label -2950 7350 0    39   ~ 0
 ~SPEED_DOWN_PB
-Text Label 650  6800 0    39   ~ 0
+Text Label -2950 7250 0    39   ~ 0
 ~BRAKE_PB
-Text Label 2950 6900 2    39   ~ 0
+Text Label -1050 7350 2    39   ~ 0
 ~SYS_FAULT
-Text Label 2950 7000 2    39   ~ 0
+Text Label -1050 7450 2    39   ~ 0
 ~LED_SPEED
-Text Label 2950 7300 2    39   ~ 0
+Text Label -1050 7750 2    39   ~ 0
 ~LED_DIR
 Wire Wire Line
-	2950 6900 2300 6900
+	-1050 7350 -1700 7350
 Wire Wire Line
-	2950 7000 2300 7000
+	-1050 7450 -1700 7450
 Wire Wire Line
-	2950 7300 2300 7300
+	-1050 7750 -1700 7750
 Wire Wire Line
-	650  6900 1300 6900
+	-2950 7350 -2300 7350
 Wire Wire Line
-	650  6800 1300 6800
+	-2950 7250 -2300 7250
 $Comp
 L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 605681A5
@@ -3426,10 +3206,9 @@ F 3 "" H 7400 2700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	650  7100 1300 7100
-Text Label 650  7100 0    39   ~ 0
+	-2950 7550 -2300 7550
+Text Label -2950 7550 0    39   ~ 0
 DIRECTION_DIP
-NoConn ~ 1300 7200
 NoConn ~ 4700 2050
 Wire Wire Line
 	8600 3450 8700 3450
@@ -3759,4 +3538,285 @@ Text Label 6700 2050 2    39   ~ 0
 EXT_UART_RX
 Wire Wire Line
 	6200 2050 6700 2050
+$Comp
+L MCU_ST_STM32F1:STM32F103TBUx U2
+U 1 1 604555CD
+P 1900 6500
+F 0 "U2" H 2300 7500 50  0000 C CNN
+F 1 "STM32F103TBUx" H 2350 7400 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-36-1EP_6x6mm_P0.5mm_EP4.1x4.1mm" H 1300 5600 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 1900 6500 50  0001 C CNN
+F 4 "‎497-11534-ND‎" H 1900 6500 50  0001 C CNN "Digikey"
+	1    1900 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5150 3250 5150
+Wire Wire Line
+	3250 5150 3250 4950
+$Comp
+L DRV8353S_dev_board-rescue:R_Small-Device R8
+U 1 1 60527131
+P 3250 4650
+F 0 "R8" H 3200 4500 50  0000 R CNN
+F 1 "1k" H 3200 4600 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3250 4650 50  0001 C CNN
+F 3 "~" H 3250 4650 50  0001 C CNN
+F 4 "0.25W" H 3100 4700 50  0000 C CNN "Power"
+	1    3250 4650
+	1    0    0    1   
+$EndComp
+$Comp
+L DRV8353S_dev_board-rescue:R_Small-Device R7
+U 1 1 60526D94
+P 2950 4650
+F 0 "R7" H 2900 4500 50  0000 R CNN
+F 1 "1k" H 2900 4600 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2950 4650 50  0001 C CNN
+F 3 "~" H 2950 4650 50  0001 C CNN
+F 4 "0.25W" H 2800 4700 50  0000 C CNN "Power"
+	1    2950 4650
+	1    0    0    1   
+$EndComp
+$Comp
+L DRV8353S_dev_board-rescue:LED_Small-Device D2
+U 1 1 60445C5C
+P 2950 4850
+F 0 "D2" V 2996 4780 50  0000 R CNN
+F 1 "GN" V 2905 4780 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2950 4850 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150060GS75000.pdf" V 2950 4850 50  0001 C CNN
+F 4 "732-4971-1-ND" V 2950 4850 50  0001 C CNN "Digikey"
+	1    2950 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DRV8353S_dev_board-rescue:LED_Small-Device D1
+U 1 1 6270AB37
+P 2650 4850
+F 0 "D1" V 2696 4780 50  0000 R CNN
+F 1 "GN" V 2605 4780 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2650 4850 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150060GS75000.pdf" V 2650 4850 50  0001 C CNN
+F 4 "732-4971-1-ND" V 2650 4850 50  0001 C CNN "Digikey"
+	1    2650 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DRV8353S_dev_board-rescue:LED_Small-Device D3
+U 1 1 6270C2E3
+P 3250 4850
+F 0 "D3" V 3296 4780 50  0000 R CNN
+F 1 "RD" V 3205 4780 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3250 4850 50  0001 C CNN
+F 3 "https://katalog.we-online.de/led/datasheet/150060RS75000.pdf" V 3250 4850 50  0001 C CNN
+F 4 "732-4978-1-ND" V 3250 4850 50  0001 C CNN "Digikey"
+	1    3250 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 4950 2250 4950
+Wire Wire Line
+	2950 5050 2250 5050
+Wire Wire Line
+	2950 4950 2950 5050
+$Comp
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
+U 1 1 6278A780
+P 2950 4550
+AR Path="/60313041/6278A780" Ref="#PWR?"  Part="1" 
+AR Path="/6278A780" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 2950 4400 50  0001 C CNN
+F 1 "+3V3" H 2965 4723 50  0000 C CNN
+F 2 "" H 2950 4550 50  0001 C CNN
+F 3 "" H 2950 4550 50  0001 C CNN
+	1    2950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
+U 1 1 6278AA5E
+P 3250 4550
+AR Path="/60313041/6278AA5E" Ref="#PWR?"  Part="1" 
+AR Path="/6278AA5E" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 3250 4400 50  0001 C CNN
+F 1 "+3V3" H 3265 4723 50  0000 C CNN
+F 2 "" H 3250 4550 50  0001 C CNN
+F 3 "" H 3250 4550 50  0001 C CNN
+	1    3250 4550
+	1    0    0    -1  
+$EndComp
+Text Label 2250 4950 0    39   ~ 0
+~LED_DIR
+Text Label 2250 5050 0    39   ~ 0
+~LED_SPEED
+$Comp
+L DRV8353S_dev_board-rescue:+3V3-power #PWR?
+U 1 1 6278A0E8
+P 2650 4550
+AR Path="/60313041/6278A0E8" Ref="#PWR?"  Part="1" 
+AR Path="/6278A0E8" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 2650 4400 50  0001 C CNN
+F 1 "+3V3" H 2665 4723 50  0000 C CNN
+F 2 "" H 2650 4550 50  0001 C CNN
+F 3 "" H 2650 4550 50  0001 C CNN
+	1    2650 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRV8353S_dev_board-rescue:R_Small-Device R6
+U 1 1 62708B7C
+P 2650 4650
+F 0 "R6" H 2600 4500 50  0000 R CNN
+F 1 "1k" H 2600 4600 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2650 4650 50  0001 C CNN
+F 3 "~" H 2650 4650 50  0001 C CNN
+F 4 "0.25W" H 2500 4700 50  0000 C CNN "Power"
+	1    2650 4650
+	1    0    0    1   
+$EndComp
+Text Label 2250 5150 0    39   ~ 0
+~SYS_FAULT
+$Comp
+L MOTOR_BOARD:ECS-33B U1
+U 1 1 607085C1
+P 1300 4650
+F 0 "U1" H 1300 4850 50  0000 C CNN
+F 1 "ECS-33B" H 1300 4750 50  0000 C CNN
+F 2 "DRV8353S_dev_board:ECS-33B" H 1300 4650 50  0001 C CNN
+F 3 "https://ecsxtal.com/store/pdf/ECS-33B.pdf" H 1300 4650 50  0001 C CNN
+F 4 "32MHz" H 1300 4550 50  0000 C CNN "Freq"
+F 5 "50-ECS-320-12-33B-7KM-CT-ND" H 1300 4650 50  0001 C CNN "Digikey"
+	1    1300 4650
+	1    0    0    -1  
+$EndComp
+Text Label 800  4650 0    39   ~ 0
+XTAL_IN
+Text Label 1800 4650 2    39   ~ 0
+XTAL_OUT
+Wire Wire Line
+	1100 4650 800  4650
+Wire Wire Line
+	1500 4650 1800 4650
+$Comp
+L DRV8353S_dev_board-rescue:GND-power #PWR0147
+U 1 1 605E26ED
+P 1500 4900
+F 0 "#PWR0147" H 1500 4650 50  0001 C CNN
+F 1 "GND" H 1505 4727 50  0000 C CNN
+F 2 "" H 1500 4900 50  0001 C CNN
+F 3 "" H 1500 4900 50  0001 C CNN
+	1    1500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRV8353S_dev_board-rescue:GND-power #PWR0146
+U 1 1 605E246C
+P 1100 4900
+F 0 "#PWR0146" H 1100 4650 50  0001 C CNN
+F 1 "GND" H 1105 4727 50  0000 C CNN
+F 2 "" H 1100 4900 50  0001 C CNN
+F 3 "" H 1100 4900 50  0001 C CNN
+	1    1100 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4650 1100 4700
+Connection ~ 1100 4650
+Wire Wire Line
+	1200 4650 1100 4650
+Wire Wire Line
+	1500 4650 1500 4700
+Connection ~ 1500 4650
+Wire Wire Line
+	1400 4650 1500 4650
+$Comp
+L DRV8353S_dev_board-rescue:C_Small-Device C6
+U 1 1 60594071
+P 1500 4800
+F 0 "C6" H 1592 4846 50  0000 L CNN
+F 1 "12pF" H 1592 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1500 4800 50  0001 C CNN
+F 3 "~" H 1500 4800 50  0001 C CNN
+F 4 "NP0" H 1700 4650 50  0000 C CNN "Rating"
+F 5 "478-10188-1-ND" H 1500 4800 50  0001 C CNN "Digikey"
+	1    1500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRV8353S_dev_board-rescue:C_Small-Device C1
+U 1 1 60593BFA
+P 1100 4800
+F 0 "C1" H 1192 4846 50  0000 L CNN
+F 1 "12pF" H 1192 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1100 4800 50  0001 C CNN
+F 3 "~" H 1100 4800 50  0001 C CNN
+F 4 "NP0" H 1300 4650 50  0000 C CNN "Rating"
+F 5 "478-10188-1-ND" H 1100 4800 50  0001 C CNN "Digikey"
+	1    1100 4800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5600 2000 5550
+Wire Wire Line
+	2000 5550 1900 5550
+Connection ~ 1900 5550
+Wire Wire Line
+	1850 5500 1850 5550
+Connection ~ 1850 5550
+Wire Wire Line
+	1850 5550 1900 5550
+Wire Wire Line
+	1700 7500 1700 7550
+Wire Wire Line
+	1700 7550 1800 7550
+Wire Wire Line
+	2100 7550 2100 7500
+Wire Wire Line
+	2000 7500 2000 7550
+Connection ~ 2000 7550
+Wire Wire Line
+	2000 7550 2100 7550
+Wire Wire Line
+	1900 7500 1900 7550
+Connection ~ 1900 7550
+Wire Wire Line
+	1900 7550 2000 7550
+Wire Wire Line
+	1800 7500 1800 7550
+Connection ~ 1800 7550
+Wire Wire Line
+	1800 7550 1900 7550
+$Comp
+L DRV8353S_dev_board-rescue:C_Small-Device C?
+U 1 1 604F2575
+P 4100 7400
+F 0 "C?" H 4008 7354 50  0000 R CNN
+F 1 "1uF" H 4008 7445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4100 7400 50  0001 C CNN
+F 3 "~" H 4100 7400 50  0001 C CNN
+F 4 "6.3V" H 3950 7550 50  0000 C CNN "Voltage"
+F 5 "478-12143-1-ND" H 4100 7400 50  0001 C CNN "Digikey"
+	1    4100 7400
+	1    0    0    1   
+$EndComp
+$Comp
+L DRV8353S_dev_board-rescue:GND-power #PWR?
+U 1 1 604F3A85
+P 4100 7500
+F 0 "#PWR?" H 4100 7250 50  0001 C CNN
+F 1 "GND" H 4105 7327 50  0000 C CNN
+F 2 "" H 4100 7500 50  0001 C CNN
+F 3 "" H 4100 7500 50  0001 C CNN
+	1    4100 7500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 7250
+Wire Wire Line
+	3650 7250 3800 7250
+Wire Wire Line
+	3800 7250 4100 7250
+Wire Wire Line
+	4100 7250 4100 7300
+Connection ~ 3800 7250
 $EndSCHEMATC
