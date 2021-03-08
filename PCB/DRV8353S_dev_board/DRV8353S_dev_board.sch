@@ -1169,7 +1169,7 @@ $EndComp
 Text Notes 4050 850  0    157  ~ 31
 DRV8353SM Dev. Board
 Text Notes 4200 1300 0    50   Italic 0
-- Voltage: 25V - 50V\n- Max Current: 100A\n- Cont. Current: 50A\n- Sensored 120 deg trap. commutation \n- For use with Flipsky 6384 
+- Voltage: 25V - 50V\n- Max Current: 100A\n- Cont. Current: 50A\n- Sensored 120 deg commutation \n- For use with Flipsky 6384 
 Text Notes 5900 1150 0    50   Italic 0
 Evaluation prototype for\nopen source e-mobility\nplatform.
 $Comp
@@ -3126,7 +3126,7 @@ Text Label 3150 6000 2    39   ~ 0
 I_PHASE_A_JMP
 Text Label 3150 5800 2    39   ~ 0
 I_PHASE_C_JMP
-Text Label 550  7100 0    39   ~ 0
+Text Label 550  7300 0    39   ~ 0
 DRV8353_EN_JMP
 Wire Wire Line
 	2500 7200 3150 7200
@@ -3137,7 +3137,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 6700 3150 6700
 Wire Wire Line
-	1200 7100 550  7100
+	1200 7300 550  7300
 Wire Wire Line
 	2500 6500 3150 6500
 Wire Wire Line
@@ -3174,7 +3174,7 @@ Wire Wire Line
 	1200 6600 550  6600
 Text Label 3150 6600 2    39   ~ 0
 ~SPEED_DOWN_PB
-Text Label 550  7300 0    39   ~ 0
+Text Label 550  7100 0    39   ~ 0
 ~BRAKE_PB
 Text Label 3150 7300 2    39   ~ 0
 ~SYS_FAULT
@@ -3191,7 +3191,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 6600 2500 6600
 Wire Wire Line
-	550  7300 1200 7300
+	550  7100 1200 7100
 $Comp
 L DRV8353S_dev_board-rescue:+3V3-power #PWR?
 U 1 1 605681A5
